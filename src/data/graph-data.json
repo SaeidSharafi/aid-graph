@@ -2508,6075 +2508,6075 @@
       "source": "ai",
       "target": "model",
       "control": [
-        92.18,
-        2.28,
-        66.49
+        88.01,
+        -3.7,
+        57.29
       ]
     },
     {
       "source": "ai",
       "target": "token",
       "control": [
-        94.7,
-        -19.83,
-        26.19
+        103.46,
+        -29.9,
+        42
       ]
     },
     {
       "source": "ai",
       "target": "harness",
       "control": [
-        123.61,
-        47.39,
-        18.16
+        119.58,
+        51.95,
+        11.52
       ]
     },
     {
       "source": "ai",
       "target": "agent",
       "control": [
-        37.01,
-        41.46,
-        55.21
+        33.13,
+        26.64,
+        56.08
       ]
     },
     {
       "source": "ai",
       "target": "context",
       "control": [
-        43.2,
-        -8.53,
-        80.76
+        56.47,
+        2.64,
+        75.5
       ]
     },
     {
       "source": "model",
       "target": "parameters",
       "control": [
-        83.1,
-        32.53,
-        70.62
+        81.2,
+        40.28,
+        78.64
       ]
     },
     {
       "source": "model",
       "target": "stateless",
       "control": [
-        63.95,
-        2.25,
-        95.7
+        62.9,
+        2.33,
+        97.57
       ]
     },
     {
       "source": "model",
       "target": "next-token-prediction",
       "control": [
-        69.49,
-        45.79,
-        31.92
+        66.6,
+        47.95,
+        39.22
       ]
     },
     {
       "source": "model",
       "target": "harness",
       "control": [
-        82.35,
-        39.66,
-        20.23
+        88.03,
+        33.36,
+        23.2
       ]
     },
     {
       "source": "model",
       "target": "token",
       "control": [
-        63.23,
-        -43.61,
-        45.51
+        62.15,
+        -45.73,
+        45.38
       ]
     },
     {
       "source": "model",
       "target": "model-provider-request",
       "control": [
-        88.6,
-        -34.56,
-        23.71
+        86.27,
+        -31.69,
+        32.12
       ]
     },
     {
       "source": "model",
       "target": "agent",
       "control": [
-        10.77,
-        12.84,
-        55.82
+        1.46,
+        17.6,
+        72.15
       ]
     },
     {
       "source": "model",
       "target": "tool",
       "control": [
-        32.51,
-        46.66,
-        97.28
+        24.1,
+        48.81,
+        101.69
       ]
     },
     {
       "source": "model",
       "target": "model-provider",
       "control": [
-        47.93,
-        -17.11,
-        37.28
+        49.8,
+        -11.83,
+        27.56
       ]
     },
     {
       "source": "model",
       "target": "session",
       "control": [
-        43.24,
-        -36.63,
-        34.9
+        38.74,
+        -25.99,
+        40.69
       ]
     },
     {
       "source": "model",
       "target": "context",
       "control": [
-        27.07,
-        -11.25,
-        88.56
+        22.1,
+        -27.46,
+        90.45
       ]
     },
     {
       "source": "model",
       "target": "system-prompt",
       "control": [
-        78.45,
-        21.26,
-        42.22
+        71.12,
+        22.34,
+        60.1
       ]
     },
     {
       "source": "parameters",
       "target": "model",
       "control": [
-        82.63,
-        38.29,
-        72.31
+        74.9,
+        38.61,
+        62.22
       ]
     },
     {
       "source": "parameters",
       "target": "training",
       "control": [
-        118.21,
-        39.46,
-        48.2
+        107.06,
+        29.37,
+        60.39
       ]
     },
     {
       "source": "parameters",
       "target": "inference",
       "control": [
-        67.34,
-        53.54,
-        42.39
+        62.55,
+        55.17,
+        40.25
       ]
     },
     {
       "source": "parameters",
       "target": "next-token-prediction",
       "control": [
-        86.97,
-        86.09,
-        36.9
+        83.19,
+        83.09,
+        30.61
       ]
     },
     {
       "source": "parameters",
       "target": "token",
       "control": [
-        82.4,
-        8.12,
-        40.71
+        89.92,
+        0.63,
+        47.14
       ]
     },
     {
       "source": "parameters",
       "target": "context-window",
       "control": [
-        70.87,
-        99.85,
-        82.68
+        65.9,
+        99.26,
+        73.32
       ]
     },
     {
       "source": "parameters",
       "target": "parametric-knowledge",
       "control": [
-        1.99,
-        79.82,
-        71.83
+        -1.78,
+        71.8,
+        61.15
       ]
     },
     {
       "source": "parameters",
       "target": "session",
       "control": [
-        55.41,
-        20.29,
-        24.27
+        65.51,
+        21.63,
+        38.06
       ]
     },
     {
       "source": "parameters",
       "target": "stateless",
       "control": [
-        87.32,
-        47.01,
-        94.64
+        81.13,
+        45.66,
+        95.22
       ]
     },
     {
       "source": "parameters",
       "target": "knowledge-cutoff",
       "control": [
-        -5.41,
-        32.46,
-        72.52
+        2.99,
+        31.56,
+        70.15
       ]
     },
     {
       "source": "parameters",
       "target": "context",
       "control": [
-        35.9,
-        42.02,
-        98.73
+        33.36,
+        24.25,
+        92.65
       ]
     },
     {
       "source": "training",
       "target": "model",
       "control": [
-        93.98,
-        -24.23,
-        62.7
+        93.83,
+        -15.45,
+        51.52
       ]
     },
     {
       "source": "training",
       "target": "parameters",
       "control": [
-        109.63,
-        31.71,
-        51.43
+        117.52,
+        39.64,
+        52.28
       ]
     },
     {
       "source": "training",
       "target": "next-token-prediction",
       "control": [
-        100.63,
-        42.03,
-        26.28
+        102.12,
+        35.51,
+        21.7
       ]
     },
     {
       "source": "training",
       "target": "model-provider",
       "control": [
-        82.6,
-        -18.62,
-        7.69
+        86.82,
+        -6.97,
+        12.75
       ]
     },
     {
       "source": "training",
       "target": "token",
       "control": [
-        94.86,
-        -49.52,
-        25.35
+        104.53,
+        -40.66,
+        33.94
       ]
     },
     {
       "source": "training",
       "target": "parametric-knowledge",
       "control": [
-        20.97,
-        30.3,
-        64.18
+        10.28,
+        22.14,
+        58.6
       ]
     },
     {
       "source": "training",
       "target": "knowledge-cutoff",
       "control": [
-        5.04,
-        -26.39,
-        43.57
+        6.6,
+        -26.56,
+        49.4
       ]
     },
     {
       "source": "training",
       "target": "context",
       "control": [
-        59.05,
-        -29.87,
-        71.74
+        51.01,
+        -20.96,
+        67.29
       ]
     },
     {
       "source": "inference",
       "target": "model",
       "control": [
-        55.58,
-        -0.85,
-        59.89
+        50,
+        4.38,
+        53.77
       ]
     },
     {
       "source": "inference",
       "target": "model-provider-request",
       "control": [
-        69.95,
-        -6.87,
-        8.41
+        82.11,
+        -5.47,
+        -7.14
       ]
     },
     {
       "source": "inference",
       "target": "parameters",
       "control": [
-        62.7,
-        58.28,
-        49.3
+        71.24,
+        54.77,
+        47.09
       ]
     },
     {
       "source": "inference",
       "target": "next-token-prediction",
       "control": [
-        53.39,
-        62.71,
-        23.78
+        53.18,
+        54.61,
+        18.02
       ]
     },
     {
       "source": "inference",
       "target": "context",
       "control": [
-        7.27,
-        -4.41,
-        79.35
+        10.63,
+        8.6,
+        72.86
       ]
     },
     {
       "source": "inference",
       "target": "training",
       "control": [
-        84,
-        -3.43,
-        43.8
+        75.22,
+        -1.31,
+        38.79
       ]
     },
     {
       "source": "inference",
       "target": "token",
       "control": [
-        58.66,
-        -17.94,
-        34.3
+        64.27,
+        -20.61,
+        18.51
       ]
     },
     {
       "source": "inference",
       "target": "session",
       "control": [
-        26.93,
-        -13.63,
-        15.41
+        21.08,
+        -8.46,
+        17.76
       ]
     },
     {
       "source": "inference",
       "target": "stateless",
       "control": [
-        47.94,
-        21.62,
-        78.54
+        48.92,
+        28.61,
+        71.43
       ]
     },
     {
       "source": "inference",
       "target": "context-window",
       "control": [
-        37.09,
-        68.93,
-        61.13
+        33.91,
+        66.23,
+        66.41
       ]
     },
     {
       "source": "inference",
       "target": "memory-system",
       "control": [
-        20,
-        13.7,
-        -13.37
+        10.31,
+        12.53,
+        -16.1
       ]
     },
     {
       "source": "inference",
       "target": "input-tokens",
       "control": [
-        44.55,
-        44.87,
-        -7.71
+        44.86,
+        44.72,
+        -7.93
       ]
     },
     {
       "source": "inference",
       "target": "output-tokens",
       "control": [
-        73.72,
-        37.5,
-        4.35
+        87.03,
+        28.26,
+        5.09
       ]
     },
     {
       "source": "inference",
       "target": "tool",
       "control": [
-        3.25,
-        60.98,
-        81.29
+        7.27,
+        66.65,
+        73.79
       ]
     },
     {
       "source": "inference",
       "target": "turn",
       "control": [
-        21.87,
-        48.6,
-        9.45
+        23.11,
+        50.25,
+        1.48
       ]
     },
     {
       "source": "effort",
       "target": "model",
       "control": [
-        86.24,
-        5.54,
-        38.58
+        103.31,
+        12.66,
+        42.35
       ]
     },
     {
       "source": "effort",
       "target": "model-provider-request",
       "control": [
-        125.96,
-        -6.95,
-        -11.95
+        128.83,
+        6.42,
+        -12.48
       ]
     },
     {
       "source": "effort",
       "target": "inference",
       "control": [
-        86.65,
-        40.83,
-        27.41
+        91.58,
+        42.24,
+        26.08
       ]
     },
     {
       "source": "effort",
       "target": "harness",
       "control": [
-        123.39,
-        56.74,
-        3
+        124.16,
+        61.91,
+        -0.2
       ]
     },
     {
       "source": "effort",
       "target": "token",
       "control": [
-        101.32,
-        -1.21,
-        15.82
+        101.77,
+        -6.98,
+        19.87
       ]
     },
     {
       "source": "effort",
       "target": "output-tokens",
       "control": [
-        133.38,
-        33.72,
-        -12.09
+        131.75,
+        37.58,
+        -15.86
       ]
     },
     {
       "source": "effort",
       "target": "session",
       "control": [
-        65.08,
-        -4.12,
-        17.36
+        70.07,
+        7.14,
+        0.71
       ]
     },
     {
       "source": "token",
       "target": "model",
       "control": [
-        71.45,
-        -47.68,
-        53.19
+        70.22,
+        -36.57,
+        53.61
       ]
     },
     {
       "source": "token",
       "target": "context-window",
       "control": [
-        67.18,
-        20.56,
-        47.36
+        45.79,
+        30.16,
+        48.93
       ]
     },
     {
       "source": "token",
       "target": "training",
       "control": [
-        95.3,
-        -42.4,
-        23.8
+        102.17,
+        -42.16,
+        29.66
       ]
     },
     {
       "source": "token",
       "target": "next-token-prediction",
       "control": [
-        76.81,
-        3.59,
-        12.5
+        73.28,
+        15.41,
+        19.26
       ]
     },
     {
       "source": "token",
       "target": "input-tokens",
       "control": [
-        51.11,
-        -12.2,
-        -12.42
+        60.86,
+        -0.05,
+        -2.39
       ]
     },
     {
       "source": "token",
       "target": "output-tokens",
       "control": [
-        96.48,
-        -25.39,
-        -0.94
+        107.3,
+        -17.74,
+        -20.97
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "model",
       "control": [
-        63.94,
-        33.05,
-        44.6
+        54.6,
+        34,
+        51.96
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "context",
       "control": [
-        18.22,
-        33.28,
-        52.05
+        22.82,
+        30.83,
+        66.5
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "token",
       "control": [
-        62.25,
-        15.4,
-        8.08
+        73.52,
+        15.34,
+        16.41
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "tool-call",
       "control": [
-        46.78,
-        24.94,
-        75.68
+        49.94,
+        25.64,
+        59.12
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "context-window",
       "control": [
-        49.55,
-        92.3,
-        42.93
+        45.4,
+        94.53,
+        58.17
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "parameters",
       "control": [
-        77.05,
-        85.04,
-        37.38
+        87.66,
+        82.52,
+        30.06
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "non-determinism",
       "control": [
-        101.85,
-        51.73,
-        3.91
+        89.58,
+        56.61,
+        13.69
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "hallucination",
       "control": [
-        -17.32,
-        46.07,
-        40.63
+        -34.45,
+        39.8,
+        43.8
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "output-tokens",
       "control": [
-        86.78,
-        52.38,
-        -10.26
+        97.66,
+        53.74,
+        -14.85
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "agent",
       "control": [
-        -6.03,
-        69.12,
-        37.73
+        0.25,
+        73.09,
+        32.69
       ]
     },
     {
       "source": "next-token-prediction",
       "target": "harness",
       "control": [
-        86.13,
-        79.06,
-        -9.26
+        90.79,
+        78.99,
+        -10.18
       ]
     },
     {
       "source": "non-determinism",
       "target": "model",
       "control": [
-        94.29,
-        -5.07,
-        46.41
+        89.68,
+        -7.9,
+        37.37
       ]
     },
     {
       "source": "non-determinism",
       "target": "context",
       "control": [
-        65.7,
-        -16.91,
-        56.15
+        55.44,
+        3.08,
+        55.33
       ]
     },
     {
       "source": "non-determinism",
       "target": "model-provider",
       "control": [
-        91,
-        -0.6,
-        -7.33
+        88.4,
+        1.77,
+        -4.31
       ]
     },
     {
       "source": "non-determinism",
       "target": "model-provider-request",
       "control": [
-        125.66,
-        -24.82,
-        -12.73
+        126.54,
+        -27.84,
+        -15.27
       ]
     },
     {
       "source": "non-determinism",
       "target": "inference",
       "control": [
-        94.15,
-        15.85,
-        19.91
+        89.96,
+        17.36,
+        21.27
       ]
     },
     {
       "source": "non-determinism",
       "target": "token",
       "control": [
-        99.59,
-        -34.14,
-        2.71
+        105.15,
+        -38.12,
+        13.06
       ]
     },
     {
       "source": "non-determinism",
       "target": "agent",
       "control": [
-        36.18,
-        14.71,
-        23.22
+        29.57,
+        27.07,
+        16.8
       ]
     },
     {
       "source": "non-determinism",
       "target": "automated-check",
       "control": [
-        104.54,
-        60.8,
-        -27.62
+        112.5,
+        61.81,
+        -30.06
       ]
     },
     {
       "source": "model-provider",
       "target": "model",
       "control": [
-        55.87,
-        -15.16,
-        35.43
+        58.34,
+        -18,
+        26.92
       ]
     },
     {
       "source": "model-provider",
       "target": "inference",
       "control": [
-        45.41,
-        13.07,
-        10.42
+        41.47,
+        6.83,
+        13.07
       ]
     },
     {
       "source": "model-provider",
       "target": "harness",
       "control": [
-        84.83,
-        43.53,
-        -22.75
+        77.36,
+        44.85,
+        -13.31
       ]
     },
     {
       "source": "model-provider",
       "target": "parameters",
       "control": [
-        68.46,
-        32.24,
-        17.6
+        81.39,
+        42.01,
+        22.82
       ]
     },
     {
       "source": "model-provider",
       "target": "model-provider-request",
       "control": [
-        81.32,
-        -28.35,
-        -22.68
+        70.06,
+        -33.93,
+        -27.69
       ]
     },
     {
       "source": "model-provider",
       "target": "token",
       "control": [
-        63.19,
-        -41.48,
-        6.98
+        60.23,
+        -38.49,
+        9.59
       ]
     },
     {
       "source": "model-provider",
       "target": "agent",
       "control": [
-        -17.57,
-        22.05,
-        14.62
+        -5.54,
+        26.35,
+        24.54
       ]
     },
     {
       "source": "model-provider",
       "target": "session",
       "control": [
-        22.93,
-        -28.52,
-        1.68
+        25.22,
+        -22.83,
+        -4.87
       ]
     },
     {
       "source": "model-provider",
       "target": "turn",
       "control": [
-        32.88,
-        22.65,
-        -14.82
+        28.84,
+        22.52,
+        -11.94
       ]
     },
     {
       "source": "model-provider",
       "target": "input-tokens",
       "control": [
-        45.12,
-        21.88,
-        -26.35
+        42.07,
+        19.39,
+        -26.45
       ]
     },
     {
       "source": "model-provider",
       "target": "output-tokens",
       "control": [
-        91.46,
-        14.85,
-        -16.5
+        82.49,
+        16.04,
+        -23.11
       ]
     },
     {
       "source": "model-provider",
       "target": "prefix-cache",
       "control": [
-        60.36,
-        -17.28,
-        -37.69
+        61.21,
+        -11.32,
+        -34.24
       ]
     },
     {
       "source": "harness",
       "target": "model",
       "control": [
-        90.6,
-        44.69,
-        26.08
+        91.89,
+        37.81,
+        34.19
       ]
     },
     {
       "source": "harness",
       "target": "agent",
       "control": [
-        25.88,
-        56.28,
-        11.39
+        20.12,
+        74.24,
+        22.41
       ]
     },
     {
       "source": "harness",
       "target": "tool",
       "control": [
-        47.31,
-        87.52,
-        55.93
+        51.15,
+        90.12,
+        51.43
       ]
     },
     {
       "source": "harness",
       "target": "system-prompt",
       "control": [
-        111.84,
-        72.13,
-        1.7
+        105.77,
+        78.49,
+        -0.04
       ]
     },
     {
       "source": "harness",
       "target": "context-window",
       "control": [
-        83.69,
-        94.49,
-        29.98
+        67.82,
+        98.24,
+        36.68
       ]
     },
     {
       "source": "harness",
       "target": "turn",
       "control": [
-        68.79,
-        82.52,
-        -11.51
+        53.85,
+        68.75,
+        -23.96
       ]
     },
     {
       "source": "harness",
       "target": "context",
       "control": [
-        56.19,
-        26.41,
-        56.39
+        38.7,
+        45.11,
+        54.16
       ]
     },
     {
       "source": "harness",
       "target": "model-provider-request",
       "control": [
-        110.65,
-        30.24,
-        -34.91
+        104.16,
+        13.4,
+        -25.5
       ]
     },
     {
       "source": "harness",
       "target": "tool-call",
       "control": [
-        59.11,
-        26.48,
-        48.15
+        79.36,
+        31.9,
+        42.22
       ]
     },
     {
       "source": "harness",
       "target": "tool-result",
       "control": [
-        16.35,
-        69.29,
-        33.52
+        23.87,
+        72.54,
+        28.89
       ]
     },
     {
       "source": "harness",
       "target": "session",
       "control": [
-        68.65,
-        19.81,
-        -7.62
+        70.39,
+        34.42,
+        -12.6
       ]
     },
     {
       "source": "harness",
       "target": "compaction",
       "control": [
-        13.84,
-        75.61,
-        -43.68
+        10.15,
+        82.15,
+        -55.82
       ]
     },
     {
       "source": "harness",
       "target": "agents",
       "control": [
-        16.42,
-        20.69,
-        -34.89
+        14.01,
+        30.17,
+        -39.68
       ]
     },
     {
       "source": "harness",
       "target": "filesystem",
       "control": [
-        40.94,
-        38.89,
-        49.14
+        36.35,
+        55.22,
+        53.66
       ]
     },
     {
       "source": "model-provider-request",
       "target": "harness",
       "control": [
-        110.64,
-        16.37,
-        -17.84
+        122.62,
+        17.34,
+        -16.62
       ]
     },
     {
       "source": "model-provider-request",
       "target": "model-provider",
       "control": [
-        74.49,
-        -21.5,
-        -15.75
+        70.14,
+        -32.83,
+        -26.92
       ]
     },
     {
       "source": "model-provider-request",
       "target": "context",
       "control": [
-        43.75,
-        -36.23,
-        45.31
+        35.33,
+        -43.34,
+        46.82
       ]
     },
     {
       "source": "model-provider-request",
       "target": "tool-call",
       "control": [
-        59.67,
-        -24.57,
-        49.44
+        66.42,
+        -32.33,
+        47.14
       ]
     },
     {
       "source": "model-provider-request",
       "target": "agent",
       "control": [
-        34.42,
-        3.73,
-        13.57
+        17.22,
+        1.18,
+        7.98
       ]
     },
     {
       "source": "model-provider-request",
       "target": "tool",
       "control": [
-        59.32,
-        17.81,
-        45.28
+        52.66,
+        20.53,
+        33.93
       ]
     },
     {
       "source": "model-provider-request",
       "target": "tool-result",
       "control": [
-        21.62,
-        -7.7,
-        29.48
+        6.05,
+        1.88,
+        24.82
       ]
     },
     {
       "source": "model-provider-request",
       "target": "system-prompt",
       "control": [
-        110.67,
-        8.44,
-        4.27
+        98.72,
+        14.82,
+        4.26
       ]
     },
     {
       "source": "model-provider-request",
       "target": "model",
       "control": [
-        90.11,
-        -22.64,
-        11.7
+        95.08,
+        -27.69,
+        16.83
       ]
     },
     {
       "source": "model-provider-request",
       "target": "stateless",
       "control": [
-        78.75,
-        -8.06,
-        35.83
+        95.51,
+        -1.27,
+        52.09
       ]
     },
     {
       "source": "model-provider-request",
       "target": "prefix-cache",
       "control": [
-        90.01,
-        -33.56,
-        -47.73
+        91.2,
+        -35.57,
+        -45.92
       ]
     },
     {
       "source": "model-provider-request",
       "target": "input-tokens",
       "control": [
-        64.55,
-        9.66,
-        -40.23
+        64.81,
+        5.96,
+        -36.44
       ]
     },
     {
       "source": "model-provider-request",
       "target": "output-tokens",
       "control": [
-        123.93,
-        -17.52,
-        -38.37
+        115.22,
+        -11.83,
+        -41.26
       ]
     },
     {
       "source": "model-provider-request",
       "target": "turn",
       "control": [
-        68.58,
-        17.02,
-        -29.9
+        66.41,
+        4.65,
+        -28.36
       ]
     },
     {
       "source": "model-provider-request",
       "target": "token",
       "control": [
-        96.43,
-        -61.76,
-        -4.98
+        88.37,
+        -56.43,
+        -2.33
       ]
     },
     {
       "source": "model-provider-request",
       "target": "session",
       "control": [
-        58.85,
-        -46.55,
-        -23.39
+        55.94,
+        -51.65,
+        -18.76
       ]
     },
     {
       "source": "input-tokens",
       "target": "token",
       "control": [
-        56.67,
-        1.53,
-        -17.64
+        65.83,
+        -12.83,
+        -11.35
       ]
     },
     {
       "source": "input-tokens",
       "target": "harness",
       "control": [
-        71.66,
-        70.01,
-        -28.36
+        79.35,
+        72.82,
+        -39.69
       ]
     },
     {
       "source": "input-tokens",
       "target": "model-provider-request",
       "control": [
-        66.17,
-        10.76,
-        -41.67
+        64.11,
+        -1.39,
+        -28.41
       ]
     },
     {
       "source": "input-tokens",
       "target": "system-prompt",
       "control": [
-        69.1,
-        65.57,
-        -11.79
+        68.24,
+        54.17,
+        -3.04
       ]
     },
     {
       "source": "input-tokens",
       "target": "tool-result",
       "control": [
-        -20.99,
-        60.81,
-        29.68
+        -29.3,
+        54.99,
+        22.91
       ]
     },
     {
       "source": "input-tokens",
       "target": "model",
       "control": [
-        40.77,
-        22.87,
-        16.52
+        46.45,
+        16.34,
+        11.87
       ]
     },
     {
       "source": "input-tokens",
       "target": "output-tokens",
       "control": [
-        76.24,
-        35.94,
-        -44.55
+        77.49,
+        33.7,
+        -38.21
       ]
     },
     {
       "source": "input-tokens",
       "target": "ai",
       "control": [
-        65.96,
-        48.5,
-        -6.52
+        75.01,
+        31.28,
+        -8.33
       ]
     },
     {
       "source": "input-tokens",
       "target": "stateless",
       "control": [
-        61.19,
-        40.05,
-        41.61
+        52.39,
+        37.11,
+        47.81
       ]
     },
     {
       "source": "input-tokens",
       "target": "turn",
       "control": [
-        25.4,
-        55.25,
-        -31.11
+        24.24,
+        56.98,
+        -30.37
       ]
     },
     {
       "source": "input-tokens",
       "target": "session",
       "control": [
-        24.2,
-        2.72,
-        -18.31
+        30.84,
+        0.95,
+        -25.47
       ]
     },
     {
       "source": "input-tokens",
       "target": "prefix-cache",
       "control": [
-        56.13,
-        17.85,
-        -59.13
+        51.64,
+        18.72,
+        -53.65
       ]
     },
     {
       "source": "input-tokens",
       "target": "cache-tokens",
       "control": [
-        66.02,
-        37.3,
-        -40.59
+        71.03,
+        44.68,
+        -32.72
       ]
     },
     {
       "source": "input-tokens",
       "target": "clearing",
       "control": [
-        -11.87,
-        36.39,
-        -7.63
+        -13.52,
+        24.76,
+        10.21
       ]
     },
     {
       "source": "input-tokens",
       "target": "compaction",
       "control": [
-        -27.63,
-        53.14,
-        -71.65
+        -32.71,
+        65.63,
+        -74.54
       ]
     },
     {
       "source": "input-tokens",
       "target": "agent",
       "control": [
-        -8.24,
-        57.75,
-        -8.39
+        -6.75,
+        59.43,
+        6.01
       ]
     },
     {
       "source": "output-tokens",
       "target": "token",
       "control": [
-        98.88,
-        -23.76,
-        -4.63
+        104.55,
+        -12.43,
+        -5.64
       ]
     },
     {
       "source": "output-tokens",
       "target": "model",
       "control": [
-        85.86,
-        8.9,
-        27.07
+        99.27,
+        3.16,
+        22.75
       ]
     },
     {
       "source": "output-tokens",
       "target": "input-tokens",
       "control": [
-        85.01,
-        44.18,
-        -41.89
+        87.82,
+        35.28,
+        -49.3
       ]
     },
     {
       "source": "output-tokens",
       "target": "tool-call",
       "control": [
-        84.82,
-        4.38,
-        50.16
+        77.81,
+        4.67,
+        31.75
       ]
     },
     {
       "source": "output-tokens",
       "target": "harness",
       "control": [
-        124.66,
-        51.19,
-        -26.8
+        120.86,
+        56.35,
+        -31.41
       ]
     },
     {
       "source": "output-tokens",
       "target": "effort",
       "control": [
-        132.47,
-        33.58,
-        -6.85
+        127.43,
+        35.9,
+        -7.54
       ]
     },
     {
       "source": "output-tokens",
       "target": "session",
       "control": [
-        66.75,
-        -0.47,
-        -25.37
+        62.67,
+        3.56,
+        -26.44
       ]
     },
     {
       "source": "output-tokens",
       "target": "turn",
       "control": [
-        58.14,
-        40.38,
-        -23.8
+        69.2,
+        43.91,
+        -35.38
       ]
     },
     {
       "source": "prefix-cache",
       "target": "model-provider",
       "control": [
-        54.53,
-        -19.15,
-        -39.17
+        62.51,
+        -14.94,
+        -38.56
       ]
     },
     {
       "source": "prefix-cache",
       "target": "model-provider-request",
       "control": [
-        94.61,
-        -40.26,
-        -51.14
+        94.97,
+        -35.65,
+        -44.93
       ]
     },
     {
       "source": "prefix-cache",
       "target": "system-prompt",
       "control": [
-        95.66,
-        33.19,
-        -22.08
+        92.39,
+        32.54,
+        -11.72
       ]
     },
     {
       "source": "prefix-cache",
       "target": "token",
       "control": [
-        67.89,
-        -48.73,
-        -24.65
+        67.06,
+        -48.75,
+        -21.42
       ]
     },
     {
       "source": "prefix-cache",
       "target": "cache-tokens",
       "control": [
-        89.19,
-        3.65,
-        -41.81
+        81.49,
+        3.05,
+        -47.29
       ]
     },
     {
       "source": "prefix-cache",
       "target": "input-tokens",
       "control": [
-        53.3,
-        21.05,
-        -56.33
+        49.35,
+        17.81,
+        -54.66
       ]
     },
     {
       "source": "prefix-cache",
       "target": "session",
       "control": [
-        36.63,
-        -35.1,
-        -27.98
+        47.95,
+        -35.18,
+        -26.37
       ]
     },
     {
       "source": "prefix-cache",
       "target": "turn",
       "control": [
-        44.67,
-        15.58,
-        -43.19
+        34.41,
+        19.61,
+        -49.5
       ]
     },
     {
       "source": "prefix-cache",
       "target": "harness",
       "control": [
-        90.77,
-        27.89,
-        -43.95
+        102.56,
+        25.86,
+        -35.26
       ]
     },
     {
       "source": "cache-tokens",
       "target": "input-tokens",
       "control": [
-        70.8,
-        44.56,
-        -35.26
+        64.09,
+        42.61,
+        -42.29
       ]
     },
     {
       "source": "cache-tokens",
       "target": "model-provider",
       "control": [
-        68.46,
-        10.3,
-        -25.29
+        70.4,
+        13.78,
+        -24.94
       ]
     },
     {
       "source": "cache-tokens",
       "target": "model-provider-request",
       "control": [
-        99.15,
-        -7.99,
-        -37.4
+        106.79,
+        -16.15,
+        -28.67
       ]
     },
     {
       "source": "cache-tokens",
       "target": "prefix-cache",
       "control": [
-        81.06,
-        8.64,
-        -43.45
+        89.76,
+        7.18,
+        -44.73
       ]
     },
     {
       "source": "cache-tokens",
       "target": "session",
       "control": [
-        60.47,
-        -1.47,
-        -6.47
+        50.56,
+        -0.8,
+        -21.3
       ]
     },
     {
       "source": "cache-tokens",
       "target": "turn",
       "control": [
-        57.07,
-        49.5,
-        -26.63
+        56.71,
+        47.19,
+        -30.76
       ]
     },
     {
       "source": "cache-tokens",
       "target": "model",
       "control": [
-        81.2,
-        2.43,
-        15.48
+        87.15,
+        8.91,
+        14.32
       ]
     },
     {
       "source": "cache-tokens",
       "target": "stateless",
       "control": [
-        84.84,
-        31.17,
-        35.66
+        75.71,
+        41.31,
+        35.2
       ]
     },
     {
       "source": "cache-tokens",
       "target": "system-prompt",
       "control": [
-        102.9,
-        47.27,
-        -3.87
+        100.21,
+        52.17,
+        2.22
       ]
     },
     {
       "source": "cache-tokens",
       "target": "tool-result",
       "control": [
-        10.87,
-        47.06,
-        22.79
+        0.16,
+        47.84,
+        43.42
       ]
     },
     {
       "source": "cache-tokens",
       "target": "harness",
       "control": [
-        108.31,
-        51.83,
-        -22.03
+        108.91,
+        58.84,
+        -30.27
       ]
     },
     {
       "source": "stateless",
       "target": "model",
       "control": [
-        57.21,
-        -2.79,
-        93.7
+        66.63,
+        4.93,
+        98.94
       ]
     },
     {
       "source": "stateless",
       "target": "model-provider-request",
       "control": [
-        80.46,
-        -5.38,
-        42.03
+        78.38,
+        -20.16,
+        52.11
       ]
     },
     {
       "source": "stateless",
       "target": "context-window",
       "control": [
-        46.24,
-        62.92,
-        102.27
+        50.07,
+        71.39,
+        108.5
       ]
     },
     {
       "source": "stateless",
       "target": "agent",
       "control": [
-        3.08,
-        35.6,
-        77.79
+        -5.96,
+        27.1,
+        76.53
       ]
     },
     {
       "source": "stateless",
       "target": "session",
       "control": [
-        41.67,
-        -10.14,
-        56.36
+        34.68,
+        -4.95,
+        66.11
       ]
     },
     {
       "source": "stateless",
       "target": "stateful",
       "control": [
-        61.69,
-        -0.45,
-        94.02
+        64.67,
+        3.51,
+        94.97
       ]
     },
     {
       "source": "stateless",
       "target": "parameters",
       "control": [
-        86.54,
-        55.21,
-        88.28
+        87.09,
+        45.42,
+        84.91
       ]
     },
     {
       "source": "stateless",
       "target": "training",
       "control": [
-        95.8,
-        2.16,
-        76.84
+        101.6,
+        -4.37,
+        85.78
       ]
     },
     {
       "source": "stateless",
       "target": "inference",
       "control": [
-        50.85,
-        32.72,
-        70.47
+        58.66,
+        29.64,
+        74.97
       ]
     },
     {
       "source": "stateless",
       "target": "harness",
       "control": [
-        79.27,
-        58.99,
-        58.85
+        98.6,
+        47.16,
+        45.94
       ]
     },
     {
       "source": "stateless",
       "target": "agents",
       "control": [
-        -24.67,
-        1.07,
-        20.46
+        -15.76,
+        -6.47,
+        20.27
       ]
     },
     {
       "source": "stateless",
       "target": "memory-system",
       "control": [
-        17.39,
-        23.21,
-        36.6
+        32.57,
+        8.46,
+        39.91
       ]
     },
     {
       "source": "stateless",
       "target": "handoff-artifact",
       "control": [
-        -38.38,
-        16.5,
-        51.7
+        -32.45,
+        34.41,
+        40.96
       ]
     },
     {
       "source": "stateless",
       "target": "context",
       "control": [
-        24.46,
-        8.42,
-        113.34
+        21.15,
+        1.56,
+        112.12
       ]
     },
     {
       "source": "stateless",
       "target": "clearing",
       "control": [
-        5.87,
-        13.38,
-        90.27
+        10.37,
+        22.03,
+        87.45
       ]
     },
     {
       "source": "context",
       "target": "agent",
       "control": [
-        -35.17,
-        12.37,
-        78.37
+        -33.06,
+        2.94,
+        79.95
       ]
     },
     {
       "source": "context",
       "target": "context-window",
       "control": [
-        0.2,
-        46.28,
-        109.86
+        15.49,
+        47.71,
+        112.79
       ]
     },
     {
       "source": "context",
       "target": "session",
       "control": [
-        -1.42,
-        -26.66,
-        59.34
+        -12.82,
+        -29.16,
+        66.59
       ]
     },
     {
       "source": "context",
       "target": "token",
       "control": [
-        33.75,
-        -40.47,
-        73.15
+        32.87,
+        -45.38,
+        73
       ]
     },
     {
       "source": "context",
       "target": "harness",
       "control": [
-        38.08,
-        45.2,
-        50.61
+        52.28,
+        30.69,
+        50.58
       ]
     },
     {
       "source": "context",
       "target": "attention-degradation",
       "control": [
-        -86.09,
-        19.71,
-        62.65
+        -71.89,
+        7.39,
+        51.69
       ]
     },
     {
       "source": "context-window",
       "target": "model",
       "control": [
-        43.44,
-        45.88,
-        91.26
+        54.26,
+        44.6,
+        82.18
       ]
     },
     {
       "source": "context-window",
       "target": "model-provider-request",
       "control": [
-        74.55,
-        25.12,
-        35.41
+        63.75,
+        32.78,
+        26.52
       ]
     },
     {
       "source": "context-window",
       "target": "token",
       "control": [
-        46.61,
-        26.22,
-        65.17
+        66.73,
+        27.02,
+        52.08
       ]
     },
     {
       "source": "context-window",
       "target": "system-prompt",
       "control": [
-        70.77,
-        96.75,
-        65.65
+        62.8,
+        84.19,
+        65.83
       ]
     },
     {
       "source": "context-window",
       "target": "tool-result",
       "control": [
-        -23.58,
-        85.65,
-        105.74
+        -21.84,
+        84.64,
+        89.53
       ]
     },
     {
       "source": "context-window",
       "target": "harness",
       "control": [
-        82.02,
-        100.03,
-        34.37
+        82.07,
+        101.89,
+        27.09
       ]
     },
     {
       "source": "context-window",
       "target": "tool-call",
       "control": [
-        37.91,
-        55.87,
-        101.5
+        28.47,
+        51.21,
+        107.48
       ]
     },
     {
       "source": "context-window",
       "target": "session",
       "control": [
-        27.45,
-        28.46,
-        59.29
+        20.74,
+        38.42,
+        53.1
       ]
     },
     {
       "source": "context-window",
       "target": "compaction",
       "control": [
-        -32.37,
-        86.95,
-        9.01
+        -36.87,
+        80.99,
+        4.76
       ]
     },
     {
       "source": "context-window",
       "target": "clearing",
       "control": [
-        -12.06,
-        47.07,
-        72.91
+        -8.87,
+        63.81,
+        63.21
       ]
     },
     {
       "source": "context-window",
       "target": "attention-budget",
       "control": [
-        -34.62,
-        35.18,
-        63.79
+        -36.87,
+        27.2,
+        48.88
       ]
     },
     {
       "source": "context-window",
       "target": "memory-system",
       "control": [
-        9.89,
-        71.87,
-        14.93
+        11.99,
+        65.16,
+        18.62
       ]
     },
     {
       "source": "stateful",
       "target": "session",
       "control": [
-        29.03,
-        -23.72,
-        34.26
+        42.15,
+        -30.94,
+        39.54
       ]
     },
     {
       "source": "stateful",
       "target": "turn",
       "control": [
-        28.7,
-        27.58,
-        23.29
+        42.58,
+        24.88,
+        27.26
       ]
     },
     {
       "source": "stateful",
       "target": "context",
       "control": [
-        20.12,
-        -13.65,
-        88.14
+        19.96,
+        -8.94,
+        99.59
       ]
     },
     {
       "source": "stateful",
       "target": "smart-zone",
       "control": [
-        -24.96,
-        -2.95,
-        26.83
+        -26.28,
+        -4.75,
+        13.54
       ]
     },
     {
       "source": "stateful",
       "target": "agent",
       "control": [
-        4.82,
-        6.71,
-        51.71
+        4.67,
+        26.24,
+        51.67
       ]
     },
     {
       "source": "stateful",
       "target": "memory-system",
       "control": [
-        28.95,
-        -9,
-        12.61
+        14.91,
+        1.57,
+        8.13
       ]
     },
     {
       "source": "stateful",
       "target": "environment",
       "control": [
-        31.23,
-        7.01,
-        99.62
+        25.2,
+        14.81,
+        92.5
       ]
     },
     {
       "source": "stateful",
       "target": "model",
       "control": [
-        60.49,
-        -21.96,
-        71.3
+        60.55,
+        -22.68,
+        71.28
       ]
     },
     {
       "source": "stateful",
       "target": "harness",
       "control": [
-        98.12,
-        45.43,
-        33.28
+        94,
+        46.95,
+        32.35
       ]
     },
     {
       "source": "stateful",
       "target": "stateless",
       "control": [
-        58.67,
-        -1.82,
-        87.9
+        66.53,
+        4.47,
+        88.68
       ]
     },
     {
       "source": "stateful",
       "target": "parameters",
       "control": [
-        89.08,
-        42.24,
-        69.92
+        82.11,
+        37.35,
+        66.42
       ]
     },
     {
       "source": "stateful",
       "target": "tool-result",
       "control": [
-        -7.98,
-        22.16,
-        84.57
+        -23.48,
+        15.21,
+        88.01
       ]
     },
     {
       "source": "stateful",
       "target": "agents",
       "control": [
-        -28.67,
-        -27.56,
-        -11.93
+        -18.27,
+        -20.3,
+        -7.28
       ]
     },
     {
       "source": "stateful",
       "target": "handoff-artifact",
       "control": [
-        -26.14,
-        2.59,
-        13.96
+        -27.21,
+        10.65,
+        21.64
       ]
     },
     {
       "source": "stateful",
       "target": "clearing",
       "control": [
-        5.85,
-        -2.49,
-        63.03
+        -2.05,
+        -5.33,
+        51.29
       ]
     },
     {
       "source": "agent",
       "target": "model",
       "control": [
-        -6.94,
-        12.44,
-        67.5
+        4.32,
+        23.3,
+        56.65
       ]
     },
     {
       "source": "agent",
       "target": "harness",
       "control": [
-        30.05,
-        64.46,
-        14.43
+        37.98,
+        62.22,
+        11.01
       ]
     },
     {
       "source": "agent",
       "target": "tool",
       "control": [
-        -41.73,
-        66.4,
-        88.32
+        -44.33,
+        64.41,
+        78.77
       ]
     },
     {
       "source": "agent",
       "target": "system-prompt",
       "control": [
-        10,
-        60.93,
-        32.21
+        23.53,
+        59.21,
+        28.25
       ]
     },
     {
       "source": "agent",
       "target": "context-window",
       "control": [
-        -14.24,
-        88.17,
-        74.09
+        -13.41,
+        68.75,
+        62.42
       ]
     },
     {
       "source": "agent",
       "target": "turn",
       "control": [
-        -23.23,
-        50.83,
-        18.9
+        -15.86,
+        56.23,
+        23.69
       ]
     },
     {
       "source": "agent",
       "target": "parameters",
       "control": [
-        10.75,
-        59.54,
-        56.23
+        30.54,
+        71.2,
+        54.54
       ]
     },
     {
       "source": "agent",
       "target": "ai",
       "control": [
-        35.74,
-        22.7,
-        53.73
+        30.67,
+        30.56,
+        53.49
       ]
     },
     {
       "source": "system-prompt",
       "target": "harness",
       "control": [
-        111.24,
-        70.85,
-        0.14
+        104.28,
+        73.94,
+        4.04
       ]
     },
     {
       "source": "system-prompt",
       "target": "model-provider-request",
       "control": [
-        115.01,
-        6.95,
-        -13.51
+        109.06,
+        8.85,
+        -11.05
       ]
     },
     {
       "source": "system-prompt",
       "target": "agent",
       "control": [
-        10.48,
-        64.46,
-        37.45
+        26.17,
+        64.66,
+        32.14
       ]
     },
     {
       "source": "system-prompt",
       "target": "tool",
       "control": [
-        50.37,
-        76.17,
-        73.27
+        39.78,
+        77.53,
+        62.31
       ]
     },
     {
       "source": "system-prompt",
       "target": "session",
       "control": [
-        56.13,
-        9.98,
-        10.92
+        64.14,
+        24.87,
+        8.13
       ]
     },
     {
       "source": "system-prompt",
       "target": "token",
       "control": [
-        90,
-        9.65,
-        19.28
+        94.16,
+        -1.13,
+        23.93
       ]
     },
     {
       "source": "system-prompt",
       "target": "input-tokens",
       "control": [
-        73,
-        70.62,
-        -2.3
+        72.45,
+        68.88,
+        -0.86
       ]
     },
     {
       "source": "system-prompt",
       "target": "turn",
       "control": [
-        60.41,
-        74.8,
-        7.16
+        61.56,
+        60.54,
+        2.09
       ]
     },
     {
       "source": "system-prompt",
       "target": "agents",
       "control": [
-        -6.88,
-        25.33,
-        -21.66
+        -3.62,
+        16.13,
+        -15.56
       ]
     },
     {
       "source": "system-prompt",
       "target": "model",
       "control": [
-        80.13,
-        28.62,
-        60.25
+        76.39,
+        22.07,
+        56.21
       ]
     },
     {
       "source": "system-prompt",
       "target": "prefix-cache",
       "control": [
-        84.07,
-        31.48,
-        -17.13
+        89.32,
+        19.27,
+        -27.88
       ]
     },
     {
       "source": "session",
       "target": "agent",
       "control": [
-        -30.16,
-        -0.75,
-        33.95
+        -31.89,
+        2.14,
+        36.61
       ]
     },
     {
       "source": "session",
       "target": "tool-result",
       "control": [
-        -43.63,
-        10.43,
-        47.55
+        -35.76,
+        -3.91,
+        59.99
       ]
     },
     {
       "source": "session",
       "target": "clearing",
       "control": [
-        -19.33,
-        -15.52,
-        19.71
+        -23.66,
+        -23.34,
+        30.65
       ]
     },
     {
       "source": "session",
       "target": "compaction",
       "control": [
-        -36.56,
-        -1.39,
-        -50.59
+        -54.89,
+        5.34,
+        -40.4
       ]
     },
     {
       "source": "session",
       "target": "context-window",
       "control": [
-        16.86,
-        26.44,
-        40.51
+        16.45,
+        41.7,
+        43.56
       ]
     },
     {
       "source": "session",
       "target": "model",
       "control": [
-        33.78,
-        -37.19,
-        32.89
+        36.19,
+        -37.66,
+        47.93
       ]
     },
     {
       "source": "session",
       "target": "stateless",
       "control": [
-        44.99,
-        1.77,
-        54.21
+        32.71,
+        -14.14,
+        58.1
       ]
     },
     {
       "source": "session",
       "target": "model-provider-request",
       "control": [
-        63.92,
-        -49.54,
-        -20.27
+        64.89,
+        -46.91,
+        -18.32
       ]
     },
     {
       "source": "session",
       "target": "filesystem",
       "control": [
-        -19.19,
-        -25.11,
-        72.1
+        -29.25,
+        -16.41,
+        55.39
       ]
     },
     {
       "source": "session",
       "target": "handoff",
       "control": [
-        -56.08,
-        -25.65,
-        3.62
+        -64.68,
+        -37.31,
+        8.51
       ]
     },
     {
       "source": "session",
       "target": "memory-system",
       "control": [
-        -5.63,
-        -19.59,
-        -30.89
+        5.65,
+        -19.75,
+        -34.72
       ]
     },
     {
       "source": "session",
       "target": "agents",
       "control": [
-        -33.64,
-        -31.81,
-        -32.92
+        -45.16,
+        -29.25,
+        -25.58
       ]
     },
     {
       "source": "session",
       "target": "turn",
       "control": [
-        15.81,
-        20.67,
-        -0.56
+        5.67,
+        16.77,
+        -10.3
       ]
     },
     {
       "source": "turn",
       "target": "agent",
       "control": [
-        -25.28,
-        49.32,
-        9.27
+        -24.37,
+        45.47,
+        13.86
       ]
     },
     {
       "source": "turn",
       "target": "model-provider-request",
       "control": [
-        51.06,
-        4.55,
-        -16.15
+        60.86,
+        16.02,
+        -28.99
       ]
     },
     {
       "source": "turn",
       "target": "tool",
       "control": [
-        0.49,
-        77.73,
-        44.85
+        -8.63,
+        76.4,
+        49.32
       ]
     },
     {
       "source": "turn",
       "target": "session",
       "control": [
-        15.48,
-        8.03,
-        -16.9
+        15.14,
+        20.96,
+        -5.23
       ]
     },
     {
       "source": "turn",
       "target": "afk",
       "control": [
-        10.78,
-        19.28,
-        -28.82
+        16.65,
+        24.72,
+        -33.39
       ]
     },
     {
       "source": "turn",
       "target": "harness",
       "control": [
-        67,
-        79.45,
-        -26.79
+        71.65,
+        79.5,
+        -27.96
       ]
     },
     {
       "source": "turn",
       "target": "tool-call",
       "control": [
-        18.9,
-        22.49,
-        44.75
+        23.9,
+        31.51,
+        61.93
       ]
     },
     {
       "source": "environment",
       "target": "agent",
       "control": [
-        -32.23,
-        41.54,
-        95.19
+        -31.14,
+        32.38,
+        83.49
       ]
     },
     {
       "source": "environment",
       "target": "harness",
       "control": [
-        63.13,
-        63.6,
-        45.56
+        72,
+        59.46,
+        46.33
       ]
     },
     {
       "source": "environment",
       "target": "tool-result",
       "control": [
-        -31.63,
-        40.88,
-        119.7
+        -44.15,
+        45.71,
+        110.27
       ]
     },
     {
       "source": "environment",
       "target": "tool-call",
       "control": [
-        13.43,
-        -2.19,
-        132.1
+        19.7,
+        -1.06,
+        134.14
       ]
     },
     {
       "source": "environment",
       "target": "agents",
       "control": [
-        -52.06,
-        0.67,
-        26.03
+        -37.16,
+        7.41,
+        33.57
       ]
     },
     {
       "source": "environment",
       "target": "context-window",
       "control": [
-        22.86,
-        77.41,
-        120.53
+        23.3,
+        73.33,
+        114.31
       ]
     },
     {
       "source": "environment",
       "target": "filesystem",
       "control": [
-        -16.17,
-        11.54,
-        134.14
+        -16.32,
+        21.95,
+        124.02
       ]
     },
     {
       "source": "environment",
       "target": "stateful",
       "control": [
-        34.81,
-        5.63,
-        92.09
+        35.88,
+        11.18,
+        100.51
       ]
     },
     {
       "source": "environment",
       "target": "session",
       "control": [
-        12.6,
-        5.22,
-        61.48
+        19.91,
+        -4.67,
+        62.88
       ]
     },
     {
       "source": "environment",
       "target": "memory-system",
       "control": [
-        7.06,
-        29.3,
-        31.22
+        -4.83,
+        13.55,
+        28.18
       ]
     },
     {
       "source": "environment",
       "target": "handoff-artifact",
       "control": [
-        -52.74,
-        21.38,
-        55.61
+        -62.72,
+        23.91,
+        42.78
       ]
     },
     {
       "source": "environment",
       "target": "sandbox",
       "control": [
-        -31.37,
-        35.69,
-        89.52
+        -28.43,
+        35.16,
+        102.96
       ]
     },
     {
       "source": "environment",
       "target": "tool",
       "control": [
-        -4.6,
-        54.52,
-        122.05
+        -5.59,
+        60.3,
+        123.53
       ]
     },
     {
       "source": "environment",
       "target": "ax",
       "control": [
-        30.56,
-        39.2,
-        -0.84
+        36.1,
+        39.32,
+        3.08
       ]
     },
     {
       "source": "filesystem",
       "target": "agent",
       "control": [
-        -54.59,
-        22.02,
-        79.32
+        -53.6,
+        17.92,
+        82.02
       ]
     },
     {
       "source": "filesystem",
       "target": "environment",
       "control": [
-        -19.09,
-        20.88,
-        128.61
+        -24.01,
+        16.63,
+        124.77
       ]
     },
     {
       "source": "filesystem",
       "target": "agents",
       "control": [
-        -74.88,
-        -23.72,
-        25.89
+        -72.46,
+        -23.13,
+        34.63
       ]
     },
     {
       "source": "filesystem",
       "target": "skill",
       "control": [
-        -58.95,
-        8.54,
-        3.67
+        -58.67,
+        14.11,
+        7.55
       ]
     },
     {
       "source": "filesystem",
       "target": "tool",
       "control": [
-        -34.82,
-        39.06,
-        121.44
+        -25.74,
+        51.49,
+        116.68
       ]
     },
     {
       "source": "filesystem",
       "target": "harness",
       "control": [
-        33.37,
-        41.44,
-        40.87
+        28.94,
+        47.82,
+        49.35
       ]
     },
     {
       "source": "filesystem",
       "target": "tool-call",
       "control": [
-        -17.05,
-        -13.54,
-        131.16
+        -10.94,
+        -15.91,
+        128.74
       ]
     },
     {
       "source": "filesystem",
       "target": "context-window",
       "control": [
-        2.27,
-        54.38,
-        103.1
+        -7.48,
+        58.46,
+        118.97
       ]
     },
     {
       "source": "filesystem",
       "target": "context-pointer",
       "control": [
-        -25.47,
-        -27.54,
-        3.55
+        -24.48,
+        -19.37,
+        9.14
       ]
     },
     {
       "source": "filesystem",
       "target": "sandbox",
       "control": [
-        -49.35,
-        18.6,
-        91.37
+        -49.54,
+        9.63,
+        97.11
       ]
     },
     {
       "source": "tool",
       "target": "harness",
       "control": [
-        48.86,
-        94.89,
-        52.88
+        53.76,
+        94.59,
+        41.45
       ]
     },
     {
       "source": "tool",
       "target": "agent",
       "control": [
-        -43.67,
-        56.9,
-        87.96
+        -34.31,
+        60.56,
+        86.32
       ]
     },
     {
       "source": "tool",
       "target": "environment",
       "control": [
-        -0.81,
-        52.21,
-        121.97
+        -2.27,
+        55.14,
+        127.52
       ]
     },
     {
       "source": "tool",
       "target": "tool-result",
       "control": [
-        -44.88,
-        69.39,
-        102.82
+        -54.66,
+        68.09,
+        98.37
       ]
     },
     {
       "source": "tool",
       "target": "tool-call",
       "control": [
-        14.22,
-        30.94,
-        119.18
+        -0.79,
+        25.09,
+        125.15
       ]
     },
     {
       "source": "tool",
       "target": "model-provider-request",
       "control": [
-        50.49,
-        31.87,
-        49.16
+        51.57,
+        11.92,
+        39.05
       ]
     },
     {
       "source": "tool",
       "target": "filesystem",
       "control": [
-        -30.25,
-        41.33,
-        122.03
+        -26.28,
+        54.43,
+        116.15
       ]
     },
     {
       "source": "tool",
       "target": "model",
       "control": [
-        32.45,
-        39.77,
-        88.42
+        12.83,
+        43.61,
+        92.31
       ]
     },
     {
       "source": "tool",
       "target": "token",
       "control": [
-        41.29,
-        13.34,
-        69.57
+        26.41,
+        11.73,
+        68.01
       ]
     },
     {
       "source": "tool",
       "target": "mcp",
       "control": [
-        5.88,
-        69.98,
-        111.24
+        -0.21,
+        72.7,
+        114.86
       ]
     },
     {
       "source": "tool",
       "target": "context",
       "control": [
-        -19.43,
-        31.69,
-        110.4
+        -16.71,
+        41.35,
+        118.03
       ]
     },
     {
       "source": "tool-call",
       "target": "model",
       "control": [
-        40.53,
-        -19.46,
-        103.46
+        43.48,
+        -19.41,
+        99.19
       ]
     },
     {
       "source": "tool-call",
       "target": "tool",
       "control": [
-        -0.65,
-        29.11,
-        129.89
+        3.99,
+        33.29,
+        114.14
       ]
     },
     {
       "source": "tool-call",
       "target": "harness",
       "control": [
-        79.31,
-        34.97,
-        42.86
+        78.85,
+        38.58,
+        56.6
       ]
     },
     {
       "source": "tool-call",
       "target": "model-provider-request",
       "control": [
-        66.38,
-        -27.57,
-        39.08
+        71.57,
+        -27.28,
+        57.29
       ]
     },
     {
       "source": "tool-call",
       "target": "system-prompt",
       "control": [
-        62.82,
-        16.7,
-        80.68
+        52.54,
+        23.18,
+        73.81
       ]
     },
     {
       "source": "tool-call",
       "target": "permission-mode",
       "control": [
-        -18.53,
-        43.44,
-        113.35
+        -7.96,
+        45.37,
+        101.94
       ]
     },
     {
       "source": "tool-call",
       "target": "tool-result",
       "control": [
-        -32.02,
-        10.34,
-        115.24
+        -24.89,
+        10.32,
+        108.47
       ]
     },
     {
       "source": "tool-call",
       "target": "turn",
       "control": [
-        16.86,
-        27.57,
-        54.81
+        10.62,
+        25.73,
+        56.87
       ]
     },
     {
       "source": "tool-call",
       "target": "agent",
       "control": [
-        -18.93,
-        7.07,
-        91.51
+        -28.99,
+        11.22,
+        89.69
       ]
     },
     {
       "source": "tool-call",
       "target": "next-token-prediction",
       "control": [
-        37.84,
-        29.01,
-        62.45
+        42.2,
+        32.27,
+        73.05
       ]
     },
     {
       "source": "tool-result",
       "target": "harness",
       "control": [
-        17.89,
-        63.37,
-        32.16
+        18.53,
+        64.96,
+        33.47
       ]
     },
     {
       "source": "tool-result",
       "target": "tool-call",
       "control": [
-        -38.28,
-        19.74,
-        105.23
+        -39.06,
+        23.34,
+        115.84
       ]
     },
     {
       "source": "tool-result",
       "target": "agent",
       "control": [
-        -72.72,
-        38.63,
-        73.79
+        -69.96,
+        43.14,
+        72.1
       ]
     },
     {
       "source": "tool-result",
       "target": "environment",
       "control": [
-        -47.91,
-        34.56,
-        107.34
+        -49.74,
+        44.58,
+        106.97
       ]
     },
     {
       "source": "tool-result",
       "target": "model",
       "control": [
-        -20.15,
-        10.84,
-        82.11
+        -22.68,
+        15.59,
+        95.64
       ]
     },
     {
       "source": "tool-result",
       "target": "model-provider-request",
       "control": [
-        15.98,
-        8.24,
-        42.3
+        12.72,
+        -6.97,
+        27.32
       ]
     },
     {
       "source": "tool-result",
       "target": "turn",
       "control": [
-        -39.91,
-        54.22,
-        30.25
+        -42.32,
+        49.03,
+        38.45
       ]
     },
     {
       "source": "tool-result",
       "target": "context",
       "control": [
-        -50.54,
-        14.75,
-        108.02
+        -54.17,
+        10.15,
+        113.68
       ]
     },
     {
       "source": "tool-result",
       "target": "session",
       "control": [
-        -40.52,
-        2.37,
-        60.56
+        -40.83,
+        1.35,
+        43.2
       ]
     },
     {
       "source": "tool-result",
       "target": "token",
       "control": [
-        -10.94,
-        -9.05,
-        52.78
+        -8.4,
+        3.06,
+        61.82
       ]
     },
     {
       "source": "tool-result",
       "target": "context-window",
       "control": [
-        -16.52,
-        71.52,
-        92.83
+        -34.33,
+        78.67,
+        104.01
       ]
     },
     {
       "source": "mcp",
       "target": "harness",
       "control": [
-        75.84,
-        80.75,
-        42.16
+        65.3,
+        82.87,
+        46.54
       ]
     },
     {
       "source": "mcp",
       "target": "agent",
       "control": [
-        -16.57,
-        56.19,
-        85.68
+        -12.68,
+        64.54,
+        84.12
       ]
     },
     {
       "source": "mcp",
       "target": "tool",
       "control": [
-        -0.17,
-        72.22,
-        113.9
+        0.52,
+        71.88,
+        112.95
       ]
     },
     {
       "source": "mcp",
       "target": "context",
       "control": [
-        -7.46,
-        17.02,
-        115.65
+        -4.26,
+        27.41,
+        110.08
       ]
     },
     {
       "source": "mcp",
       "target": "model",
       "control": [
-        31.51,
-        20.56,
-        100.41
+        42.98,
+        25.67,
+        91.11
       ]
     },
     {
       "source": "mcp",
       "target": "context-window",
       "control": [
-        31.7,
-        83.83,
-        106.43
+        30.58,
+        80.98,
+        104.34
       ]
     },
     {
       "source": "mcp",
       "target": "session",
       "control": [
-        15.17,
-        25.66,
-        62.83
+        5.44,
+        10.1,
+        63.44
       ]
     },
     {
       "source": "mcp",
       "target": "token",
       "control": [
-        50.79,
-        10.6,
-        68.92
+        43.05,
+        -7.21,
+        65.22
       ]
     },
     {
       "source": "mcp",
       "target": "attention-budget",
       "control": [
-        -41.92,
-        15.04,
-        71.88
+        -52.04,
+        9.94,
+        71.52
       ]
     },
     {
       "source": "mcp",
       "target": "context-pointer",
       "control": [
-        -0.31,
-        23.79,
-        5.28
+        8.47,
+        8.99,
+        -9.53
       ]
     },
     {
       "source": "permission-request",
       "target": "harness",
       "control": [
-        32.61,
-        43.66,
-        45.64
+        50.18,
+        48.56,
+        39.24
       ]
     },
     {
       "source": "permission-request",
       "target": "tool-call",
       "control": [
-        -5.19,
-        -5,
-        117.87
+        -2.02,
+        -12,
+        116.3
       ]
     },
     {
       "source": "permission-request",
       "target": "model",
       "control": [
-        18.07,
-        4.04,
-        86.68
+        18.23,
+        0.22,
+        86.62
       ]
     },
     {
       "source": "permission-request",
       "target": "tool-result",
       "control": [
-        -62.61,
-        26.2,
-        98.27
+        -58.55,
+        28.25,
+        101.88
       ]
     },
     {
       "source": "permission-request",
       "target": "human-in-the-loop",
       "control": [
-        19.06,
-        30.76,
-        31
+        29.35,
+        12.2,
+        26.33
       ]
     },
     {
       "source": "permission-request",
       "target": "permission-mode",
       "control": [
-        -50.09,
-        56.56,
-        103.22
+        -39.4,
+        48.14,
+        89.05
       ]
     },
     {
       "source": "permission-request",
       "target": "session",
       "control": [
-        -11.74,
-        -7.21,
-        61.27
+        -6.81,
+        -10.32,
+        66.03
       ]
     },
     {
       "source": "permission-request",
       "target": "agent",
       "control": [
-        -49.43,
-        22.4,
-        73.64
+        -43.66,
+        20.02,
+        78.73
       ]
     },
     {
       "source": "permission-request",
       "target": "afk",
       "control": [
-        -12.87,
-        0.78,
-        27.98
+        -2.47,
+        -8.75,
+        32.8
       ]
     },
     {
       "source": "permission-request",
       "target": "sandbox",
       "control": [
-        -42.71,
-        19.9,
-        85.06
+        -40.2,
+        11.48,
+        80.25
       ]
     },
     {
       "source": "permission-request",
       "target": "tool",
       "control": [
-        -21.91,
-        49.54,
-        107.24
+        -24.69,
+        43.96,
+        112.68
       ]
     },
     {
       "source": "permission-mode",
       "target": "agent-mode",
       "control": [
-        -9.14,
-        55.68,
-        84.23
+        -25.12,
+        48.76,
+        75.76
       ]
     },
     {
       "source": "permission-mode",
       "target": "tool-call",
       "control": [
-        -8.19,
-        29.71,
-        109.25
+        -12.72,
+        28.03,
+        108.03
       ]
     },
     {
       "source": "permission-mode",
       "target": "permission-request",
       "control": [
-        -37.71,
+        -39.08,
         53.22,
-        92.72
+        91.92
       ]
     },
     {
       "source": "permission-mode",
       "target": "harness",
       "control": [
-        21.12,
-        80.7,
-        41.89
+        22.99,
+        83.72,
+        23.98
       ]
     },
     {
       "source": "permission-mode",
       "target": "sandbox",
       "control": [
-        -53.27,
-        61.05,
-        64.51
+        -53.25,
+        60.53,
+        76.06
       ]
     },
     {
       "source": "permission-mode",
       "target": "afk",
       "control": [
-        -24.45,
-        41.14,
-        21.03
+        -8.56,
+        46.7,
+        27.39
       ]
     },
     {
       "source": "permission-mode",
       "target": "agent",
       "control": [
-        -56.67,
-        61.65,
-        65.25
+        -60.9,
+        58.01,
+        70.18
       ]
     },
     {
       "source": "permission-mode",
       "target": "tool",
       "control": [
-        -34,
-        84.21,
-        103.1
+        -35.52,
+        83.88,
+        98.22
       ]
     },
     {
       "source": "permission-mode",
       "target": "human-in-the-loop",
       "control": [
-        20.08,
-        69.42,
-        25.04
+        8.51,
+        69.67,
+        12.92
       ]
     },
     {
       "source": "permission-mode",
       "target": "session",
       "control": [
-        -18.88,
-        30.9,
-        41.27
+        -10.12,
+        16.49,
+        36.01
       ]
     },
     {
       "source": "agent-mode",
       "target": "agent",
       "control": [
-        -17.46,
-        37.18,
-        61.41
+        -23.2,
+        29.75,
+        56.97
       ]
     },
     {
       "source": "agent-mode",
       "target": "permission-mode",
       "control": [
-        -12.44,
-        48.6,
-        71.2
+        -12,
+        64.12,
+        80.46
       ]
     },
     {
       "source": "agent-mode",
       "target": "system-prompt",
       "control": [
-        66.59,
-        47.27,
-        53.75
+        68.37,
+        50.94,
+        52.33
       ]
     },
     {
       "source": "agent-mode",
       "target": "session",
       "control": [
-        21.36,
-        -12.52,
-        34.93
+        22.12,
+        -4.18,
+        29.6
       ]
     },
     {
       "source": "agent-mode",
       "target": "tool-call",
       "control": [
-        16.69,
-        -5.57,
-        95.39
+        24.64,
+        -5.36,
+        98.12
       ]
     },
     {
       "source": "agent-mode",
       "target": "afk",
       "control": [
-        23.27,
-        1.01,
-        10.07
+        20.3,
+        15.21,
+        22.46
       ]
     },
     {
       "source": "agent-mode",
       "target": "sandbox",
       "control": [
-        -21.07,
-        26.88,
-        58.07
+        -18.62,
+        18.07,
+        67.87
       ]
     },
     {
       "source": "sandbox",
       "target": "environment",
       "control": [
-        -20.43,
-        39.46,
-        95.97
+        -18.69,
+        38.82,
+        91.75
       ]
     },
     {
       "source": "sandbox",
       "target": "agent",
       "control": [
-        -56.95,
-        28.69,
-        52.02
+        -57.53,
+        28.89,
+        53.9
       ]
     },
     {
       "source": "sandbox",
       "target": "filesystem",
       "control": [
-        -51.12,
-        20.74,
-        94
+        -57.46,
+        16.71,
+        92.11
       ]
     },
     {
       "source": "sandbox",
       "target": "afk",
       "control": [
-        -6.79,
-        3.82,
-        2.64
+        -17.15,
+        11.32,
+        3.87
       ]
     },
     {
       "source": "sandbox",
       "target": "permission-mode",
       "control": [
-        -57.11,
-        52.9,
-        68.48
+        -52.3,
+        56.81,
+        64.17
       ]
     },
     {
       "source": "sandbox",
       "target": "human-in-the-loop",
       "control": [
-        17.3,
-        31.87,
-        9.42
+        7.48,
+        34.8,
+        -2.27
       ]
     },
     {
       "source": "sandbox",
       "target": "agent-mode",
       "control": [
-        -16.56,
-        26.32,
-        67.92
+        -21.26,
+        26.27,
+        66.14
       ]
     },
     {
       "source": "sycophancy",
       "target": "model",
       "control": [
-        -32.74,
-        -12.21,
-        78.03
+        -30.1,
+        -5.09,
+        79.28
       ]
     },
     {
       "source": "sycophancy",
       "target": "training",
       "control": [
-        7.37,
-        3.36,
-        54.98
+        13.1,
+        2.55,
+        67.53
       ]
     },
     {
       "source": "sycophancy",
       "target": "clearing",
       "control": [
-        -78.78,
-        6.64,
-        63.16
+        -82.55,
+        -1.06,
+        61.5
       ]
     },
     {
       "source": "hallucination",
       "target": "model",
       "control": [
-        -29.77,
-        -12.69,
-        80.01
+        -20.31,
+        -12.33,
+        76.67
       ]
     },
     {
       "source": "hallucination",
       "target": "parametric-knowledge",
       "control": [
-        -111.02,
-        26.23,
-        71.12
+        -105.56,
+        19.61,
+        75.76
       ]
     },
     {
       "source": "hallucination",
       "target": "knowledge-cutoff",
       "control": [
-        -104.54,
-        -29.58,
-        65.54
+        -107.92,
+        -30.17,
+        68.94
       ]
     },
     {
       "source": "hallucination",
       "target": "contextual-knowledge",
       "control": [
-        -124.9,
-        -1.34,
-        53.44
+        -124.26,
+        -2.99,
+        54.6
       ]
     },
     {
       "source": "hallucination",
       "target": "attention-degradation",
       "control": [
-        -122.09,
-        8.89,
-        32.99
+        -124.9,
+        18.51,
+        41.8
       ]
     },
     {
       "source": "hallucination",
       "target": "smart-zone",
       "control": [
-        -96.43,
-        -4.81,
-        17.14
+        -104.67,
+        -18.65,
+        12.51
       ]
     },
     {
       "source": "hallucination",
       "target": "clearing",
       "control": [
-        -84.92,
-        -13.96,
-        51.26
+        -83.36,
+        -5.39,
+        55.17
       ]
     },
     {
       "source": "hallucination",
       "target": "compaction",
       "control": [
-        -114.45,
-        30.58,
-        -9.72
+        -112.11,
+        18.38,
+        -10.49
       ]
     },
     {
       "source": "hallucination",
       "target": "next-token-prediction",
       "control": [
-        -18.39,
-        33.38,
-        34.88
+        -34.56,
+        32.2,
+        30.27
       ]
     },
     {
       "source": "hallucination",
       "target": "turn",
       "control": [
-        -53.01,
-        33.49,
-        15.54
+        -61.99,
+        21.42,
+        13.38
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "model",
       "control": [
-        -11.26,
-        16.56,
-        69.18
+        -20.25,
+        21.57,
+        76.47
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "training",
       "control": [
-        5.36,
-        27.8,
-        65.92
+        -0.61,
+        14.4,
+        57.76
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "parameters",
       "control": [
-        -9.43,
-        67.97,
-        66.48
+        -6.6,
+        82.3,
+        62.93
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "contextual-knowledge",
       "control": [
-        -110.77,
-        38.95,
-        51.46
+        -118.71,
+        41.5,
+        60.44
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "hallucination",
       "control": [
-        -115.25,
-        31.35,
-        74.29
+        -114.82,
+        25.9,
+        75.94
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "knowledge-cutoff",
       "control": [
-        -106.53,
-        21.32,
-        77.43
+        -104.46,
+        12.54,
+        63.63
       ]
     },
     {
       "source": "parametric-knowledge",
       "target": "context",
       "control": [
-        -62.64,
-        25.43,
-        84.12
+        -63.67,
+        21.53,
+        100.61
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "model",
       "control": [
-        -10.22,
-        -18.26,
-        81.86
+        -20.76,
+        -29.44,
+        77.84
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "parametric-knowledge",
       "control": [
-        -96.41,
-        22.91,
-        63.68
+        -99.17,
+        13.83,
+        74.53
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "contextual-knowledge",
       "control": [
-        -120.47,
-        -13.94,
-        50.71
+        -109.43,
+        -12.76,
+        58.35
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "training",
       "control": [
-        3.3,
-        -19.59,
-        44.84
+        21.23,
+        -36,
+        61.07
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "parameters",
       "control": [
-        2.64,
-        28.19,
-        74.52
+        -8.15,
+        17.95,
+        70.44
       ]
     },
     {
       "source": "knowledge-cutoff",
       "target": "context",
       "control": [
-        -57.23,
-        -24.71,
-        90.08
+        -53.38,
+        -24.06,
+        92.59
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "agent",
       "control": [
-        -94.87,
-        24.53,
-        38.72
+        -93.91,
+        21.41,
+        43.69
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "context",
       "control": [
-        -84.75,
-        4.19,
-        86.95
+        -67.88,
+        -3.38,
+        72.49
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "tool-result",
       "control": [
-        -107.52,
-        24.8,
-        63.18
+        -112.59,
+        34.3,
+        61.27
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "agents",
       "control": [
-        -122.44,
-        -7.25,
-        -22.54
+        -115.09,
+        -8.59,
+        -8.83
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "session",
       "control": [
-        -56.42,
-        -9.51,
-        23.28
+        -50.35,
+        -18.85,
+        17.42
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "parametric-knowledge",
       "control": [
-        -111.17,
-        35.96,
-        57.7
+        -113.42,
+        37.31,
+        51.06
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "context-window",
       "control": [
-        -52.05,
-        68.43,
-        67.93
+        -48.36,
+        74.91,
+        73.03
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "hallucination",
       "control": [
-        -123.04,
-        0.05,
-        53.82
+        -123.63,
+        -2.5,
+        54.24
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "model",
       "control": [
-        -23.96,
-        12.2,
-        62.08
+        -40.65,
+        1.6,
+        56.26
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "knowledge-cutoff",
       "control": [
-        -112.25,
-        -18.45,
-        48.55
+        -111.32,
+        -8.46,
+        52.95
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "ai",
       "control": [
-        0.35,
-        19.4,
-        49.89
+        1.55,
+        18.55,
+        45.75
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "token",
       "control": [
-        -26.71,
-        -33.48,
-        20.95
+        -16.19,
+        -12.44,
+        25.38
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "attention-budget",
       "control": [
-        -120.54,
-        -15.85,
-        25.05
+        -129.13,
+        -18.29,
+        27.58
       ]
     },
     {
       "source": "contextual-knowledge",
       "target": "memory-system",
       "control": [
-        -63.12,
-        3.46,
-        -0.11
+        -63.55,
+        9.08,
+        -16.97
       ]
     },
     {
       "source": "attention-relationship",
       "target": "token",
       "control": [
-        -6.87,
-        -16.76,
-        39.68
+        6.96,
+        -3.22,
+        30.59
       ]
     },
     {
       "source": "attention-relationship",
       "target": "model",
       "control": [
-        -21.26,
-        13.81,
-        57.81
+        -18.49,
+        14.32,
+        49.73
       ]
     },
     {
       "source": "attention-relationship",
       "target": "context",
       "control": [
-        -51.3,
-        12.97,
-        75
+        -45.68,
+        17.3,
+        87.42
       ]
     },
     {
       "source": "attention-relationship",
       "target": "model-provider-request",
       "control": [
-        23.57,
-        0.06,
-        -4.36
+        23.6,
+        6.03,
+        3.62
       ]
     },
     {
       "source": "attention-relationship",
       "target": "attention-budget",
       "control": [
-        -104.22,
-        -2.28,
-        30.57
+        -104.7,
+        -7.6,
+        30.26
       ]
     },
     {
       "source": "attention-relationship",
       "target": "attention-degradation",
       "control": [
-        -107.4,
-        33.55,
-        22.28
+        -107.09,
+        33.26,
+        24.01
       ]
     },
     {
       "source": "attention-relationship",
       "target": "smart-zone",
       "control": [
-        -86.88,
-        5.78,
-        9.19
+        -91.43,
+        6.71,
+        11.16
       ]
     },
     {
       "source": "attention-budget",
       "target": "token",
       "control": [
-        -23.91,
-        -59.63,
-        20.19
+        -18.74,
+        -39.91,
+        28.18
       ]
     },
     {
       "source": "attention-budget",
       "target": "context",
       "control": [
-        -72.38,
-        -17.19,
-        66.46
+        -62.34,
+        -23.73,
+        68.77
       ]
     },
     {
       "source": "attention-budget",
       "target": "attention-relationship",
       "control": [
-        -93.25,
-        -4.74,
-        33.9
+        -93.3,
+        -3.2,
+        26.03
       ]
     },
     {
       "source": "attention-budget",
       "target": "session",
       "control": [
-        -56.78,
-        -32.07,
-        18.08
+        -47.79,
+        -45.6,
+        16.11
       ]
     },
     {
       "source": "attention-budget",
       "target": "context-window",
       "control": [
-        -32.72,
-        35.03,
-        48.32
+        -41.1,
+        42.5,
+        51.9
       ]
     },
     {
       "source": "attention-budget",
       "target": "attention-degradation",
       "control": [
-        -125.35,
-        -0.77,
-        19.1
+        -130.15,
+        4.25,
+        13.44
       ]
     },
     {
       "source": "attention-budget",
       "target": "clearing",
       "control": [
-        -88.08,
-        -21.31,
-        37
+        -89.27,
+        -24.94,
+        27.03
       ]
     },
     {
       "source": "attention-budget",
       "target": "smart-zone",
       "control": [
-        -105.09,
-        -29.68,
-        -4.45
+        -101.48,
+        -31.58,
+        -0.3
       ]
     },
     {
       "source": "attention-degradation",
       "target": "session",
       "control": [
-        -54.2,
-        9.41,
-        7.87
+        -60.64,
+        4.64,
+        -0.17
       ]
     },
     {
       "source": "attention-degradation",
       "target": "token",
       "control": [
-        -33.27,
-        0.92,
-        20.12
+        -35.49,
+        -6.87,
+        21.87
       ]
     },
     {
       "source": "attention-degradation",
       "target": "attention-budget",
       "control": [
-        -127.9,
-        -1.09,
-        12.38
+        -119.05,
+        -1.06,
+        15.11
       ]
     },
     {
       "source": "attention-degradation",
       "target": "attention-relationship",
       "control": [
-        -109.94,
-        40.28,
-        20.83
+        -111.91,
+        38.05,
+        27.78
       ]
     },
     {
       "source": "attention-degradation",
       "target": "context",
       "control": [
-        -86.62,
-        16.65,
-        60.06
+        -79.65,
+        7.74,
+        54.97
       ]
     },
     {
       "source": "attention-degradation",
       "target": "model",
       "control": [
-        -38.08,
-        7.26,
-        39.44
+        -26.74,
+        16.27,
+        35.35
       ]
     },
     {
       "source": "attention-degradation",
       "target": "parameters",
       "control": [
-        -10.12,
-        74.19,
-        41.4
+        -4.78,
+        61.92,
+        35.86
       ]
     },
     {
       "source": "attention-degradation",
       "target": "smart-zone",
       "control": [
-        -118.45,
-        21.33,
-        -13.57
+        -117.77,
+        13.68,
+        -11.49
       ]
     },
     {
       "source": "attention-degradation",
       "target": "turn",
       "control": [
-        -54.07,
-        64.67,
-        -11.18
+        -53.53,
+        63.49,
+        -8.36
       ]
     },
     {
       "source": "attention-degradation",
       "target": "clearing",
       "control": [
-        -89.87,
-        19.31,
-        20.29
+        -82.82,
+        28.2,
+        33.17
       ]
     },
     {
       "source": "attention-degradation",
       "target": "compaction",
       "control": [
-        -119.26,
-        41.58,
-        -30.88
+        -112.46,
+        45.04,
+        -30.66
       ]
     },
     {
       "source": "attention-degradation",
       "target": "handoff",
       "control": [
-        -123.05,
-        -0.56,
-        6.47
+        -127.43,
+        -0.42,
+        8.55
       ]
     },
     {
       "source": "smart-zone",
       "target": "session",
       "control": [
-        -44.99,
-        -26.46,
-        -6.92
+        -31.78,
+        -20.46,
+        -4.55
       ]
     },
     {
       "source": "smart-zone",
       "target": "agent",
       "control": [
-        -74.15,
-        23.32,
-        14.98
+        -72.37,
+        15.85,
+        7.98
       ]
     },
     {
       "source": "smart-zone",
       "target": "hallucination",
       "control": [
-        -108.63,
-        -17.63,
-        23.29
+        -99.43,
+        -3.44,
+        20.67
       ]
     },
     {
       "source": "smart-zone",
       "target": "model",
       "control": [
-        -11.97,
-        -20.91,
-        28.15
+        -14.39,
+        -2.62,
+        23.83
       ]
     },
     {
       "source": "smart-zone",
       "target": "harness",
       "control": [
-        16.18,
-        50.66,
-        -26.71
+        11.57,
+        42.34,
+        -26.69
       ]
     },
     {
       "source": "smart-zone",
       "target": "context",
       "control": [
-        -46.78,
-        -16.04,
-        39.76
+        -47.28,
+        -19.21,
+        35.91
       ]
     },
     {
       "source": "smart-zone",
       "target": "attention-degradation",
       "control": [
-        -107.48,
-        13.66,
-        -13.53
+        -117.49,
+        16.16,
+        -11.37
       ]
     },
     {
       "source": "smart-zone",
       "target": "token",
       "control": [
-        -16.99,
-        -41.06,
-        7.48
+        -16.44,
+        -35.41,
+        7.92
       ]
     },
     {
       "source": "smart-zone",
       "target": "clearing",
       "control": [
-        -76.63,
-        -0.16,
-        12.61
+        -70.28,
+        -11.04,
+        14.69
       ]
     },
     {
       "source": "smart-zone",
       "target": "compaction",
       "control": [
-        -97.61,
-        22.95,
-        -49.93
+        -89.78,
+        20.15,
+        -57.71
       ]
     },
     {
       "source": "smart-zone",
       "target": "context-window",
       "control": [
-        -20.4,
-        47.34,
-        24.77
+        -25.14,
+        42.03,
+        33.24
       ]
     },
     {
       "source": "smart-zone",
       "target": "handoff",
       "control": [
-        -105.36,
-        -26.78,
-        -4.71
+        -112.37,
+        -20.89,
+        -7.04
       ]
     },
     {
       "source": "clearing",
       "target": "session",
       "control": [
-        -11.21,
-        -28.27,
-        27.91
+        -17.96,
+        -19.98,
+        30.47
       ]
     },
     {
       "source": "clearing",
       "target": "context-window",
       "control": [
-        -5.71,
-        48.1,
-        58.97
+        0.15,
+        50.62,
+        78.23
       ]
     },
     {
       "source": "clearing",
       "target": "tool-result",
       "control": [
-        -63.61,
-        17.02,
-        75.28
+        -65.55,
+        21.73,
+        76.35
       ]
     },
     {
       "source": "clearing",
       "target": "model",
       "control": [
-        4.57,
-        0.92,
-        65.59
+        6.04,
+        -5.72,
+        57.47
       ]
     },
     {
       "source": "clearing",
       "target": "turn",
       "control": [
-        -9.12,
-        26.61,
-        3.7
+        -11.18,
+        34.49,
+        21.64
       ]
     },
     {
       "source": "clearing",
       "target": "agent",
       "control": [
-        -54.32,
-        14.89,
-        44.59
+        -48.03,
+        12.84,
+        44.76
       ]
     },
     {
       "source": "clearing",
       "target": "context",
       "control": [
-        -30.72,
-        -13.14,
-        84.76
+        -36.44,
+        -15.73,
+        74.34
       ]
     },
     {
       "source": "clearing",
       "target": "harness",
       "control": [
-        25.54,
-        54.9,
-        19.03
+        26.3,
+        46.67,
+        16.23
       ]
     },
     {
       "source": "clearing",
       "target": "stateless",
       "control": [
-        18.73,
-        12.2,
-        79.06
+        -0.59,
+        17.81,
+        84.29
       ]
     },
     {
       "source": "clearing",
       "target": "handoff-artifact",
       "control": [
-        -98.31,
-        6.01,
-        -0.43
+        -90.55,
+        9.5,
+        11.66
       ]
     },
     {
       "source": "clearing",
       "target": "compaction",
       "control": [
-        -82.14,
-        35.24,
-        -28.43
+        -78.2,
+        37.39,
+        -15.8
       ]
     },
     {
       "source": "handoff",
       "target": "context",
       "control": [
-        -70.81,
-        -33.64,
-        55.85
+        -64.7,
+        -32.3,
+        59.4
       ]
     },
     {
       "source": "handoff",
       "target": "agent",
       "control": [
-        -83.26,
-        6.21,
-        36.36
+        -96.12,
+        1.11,
+        34.98
       ]
     },
     {
       "source": "handoff",
       "target": "session",
       "control": [
-        -65.03,
-        -41.83,
-        -2.62
+        -53.51,
+        -38.03,
+        -1.28
       ]
     },
     {
       "source": "handoff",
       "target": "handoff-artifact",
       "control": [
-        -124.5,
-        -7.75,
-        -7.06
+        -132.96,
+        -13.59,
+        -6.41
       ]
     },
     {
       "source": "handoff",
       "target": "compaction",
       "control": [
-        -114.86,
-        18.04,
-        -46
+        -114.12,
+        16.05,
+        -44.73
       ]
     },
     {
       "source": "handoff",
       "target": "clearing",
       "control": [
-        -89.18,
-        -9.52,
-        24.9
+        -79.26,
+        -10.36,
+        32.06
       ]
     },
     {
       "source": "handoff",
       "target": "afk",
       "control": [
-        -47.59,
-        -14.5,
-        -12.99
+        -61.98,
+        -15.69,
+        -18.45
       ]
     },
     {
       "source": "handoff",
       "target": "context-window",
       "control": [
-        -34.32,
-        41.48,
-        60.5
+        -41.32,
+        48.11,
+        51.1
       ]
     },
     {
       "source": "handoff",
       "target": "model",
       "control": [
-        -35.21,
-        -13.01,
-        34.22
+        -21.25,
+        -28.33,
+        46.77
       ]
     },
     {
       "source": "handoff",
       "target": "stateless",
       "control": [
-        -27.3,
-        -5.56,
-        73.4
+        -35.14,
+        -1.41,
+        67.61
       ]
     },
     {
       "source": "handoff",
       "target": "environment",
       "control": [
-        -64.96,
-        5.68,
-        71.97
+        -49.47,
+        -7.94,
+        64.03
       ]
     },
     {
       "source": "primary-source",
       "target": "secondary-source",
       "control": [
-        -53.74,
-        15.58,
-        -14.82
+        -67.19,
+        7.77,
+        -12.26
       ]
     },
     {
       "source": "primary-source",
       "target": "agent",
       "control": [
-        -74.48,
-        55.98,
-        18.46
+        -72.57,
+        57.78,
+        20.2
       ]
     },
     {
       "source": "primary-source",
       "target": "context-window",
       "control": [
-        -10.47,
-        98.1,
-        48.07
+        -13,
+        87.28,
+        56.06
       ]
     },
     {
       "source": "primary-source",
       "target": "token",
       "control": [
-        -3.45,
-        3.07,
-        4.43
+        1.55,
+        1.7,
+        20.05
       ]
     },
     {
       "source": "primary-source",
       "target": "input-tokens",
       "control": [
-        -10.67,
-        55.76,
-        -33.71
+        -20.2,
+        54.68,
+        -23.75
       ]
     },
     {
       "source": "primary-source",
       "target": "attention-budget",
       "control": [
-        -89.89,
-        16.38,
-        2.94
+        -98,
+        10.39,
+        20.43
       ]
     },
     {
       "source": "primary-source",
       "target": "context",
       "control": [
-        -60.52,
-        26.14,
-        56.46
+        -60.45,
+        17.59,
+        66.34
       ]
     },
     {
       "source": "secondary-source",
       "target": "primary-source",
       "control": [
-        -60.11,
-        19.52,
-        -17.85
+        -52.55,
+        10.56,
+        -6.31
       ]
     },
     {
       "source": "secondary-source",
       "target": "context-window",
       "control": [
-        1.05,
-        30.31,
-        45.44
+        -14.49,
+        24.55,
+        43.61
       ]
     },
     {
       "source": "secondary-source",
       "target": "context",
       "control": [
-        -24.12,
-        -30.19,
-        42.83
+        -34.37,
+        -27.62,
+        39.36
       ]
     },
     {
       "source": "secondary-source",
       "target": "compaction",
       "control": [
-        -71.44,
-        -2.26,
-        -56.53
+        -64.25,
+        -0.88,
+        -55.82
       ]
     },
     {
       "source": "secondary-source",
       "target": "session",
       "control": [
-        -15.17,
-        -49.05,
-        -11.59
+        -19.56,
+        -47.13,
+        -3.45
       ]
     },
     {
       "source": "secondary-source",
       "target": "subagent",
       "control": [
-        -31.35,
-        -1.93,
-        -86.9
+        -21.78,
+        -3.43,
+        -83.99
       ]
     },
     {
       "source": "secondary-source",
       "target": "handoff-artifact",
       "control": [
-        -98.93,
-        -18.36,
-        -18.64
+        -88.69,
+        -7.86,
+        -32.09
       ]
     },
     {
       "source": "secondary-source",
       "target": "memory-system",
       "control": [
-        -24.21,
-        -20.44,
-        -39.06
+        -34.65,
+        -24.23,
+        -43.92
       ]
     },
     {
       "source": "secondary-source",
       "target": "agent",
       "control": [
-        -51.19,
-        5.5,
-        12.96
+        -48.77,
+        2.26,
+        22.88
       ]
     },
     {
       "source": "secondary-source",
       "target": "context-pointer",
       "control": [
-        -24.41,
-        -42.14,
-        -70.75
+        -14.79,
+        -52.37,
+        -72.18
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "handoff",
       "control": [
-        -133.24,
-        -10.04,
-        -11.24
+        -123.45,
+        -9.47,
+        -2.35
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "session",
       "control": [
-        -71.31,
-        -20.4,
-        -15.32
+        -54.26,
+        -13.11,
+        -5.26
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "environment",
       "control": [
-        -69.77,
-        18.82,
-        42.67
+        -57.59,
+        28.32,
+        54.67
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "spec",
       "control": [
-        -76.33,
-        43.34,
-        -35.99
+        -81.92,
+        41.49,
+        -45.04
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "ticket",
       "control": [
-        -114.73,
-        -10.59,
-        -41.61
+        -117.24,
+        -9.39,
+        -44.01
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "model",
       "control": [
-        -34.98,
-        5.14,
-        22.99
+        -41.81,
+        13.1,
+        22.03
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "stateless",
       "control": [
-        -39.24,
-        30.1,
-        50.16
+        -40.69,
+        25.83,
+        51.26
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "clearing",
       "control": [
-        -82.13,
-        14.21,
-        13.16
+        -88.27,
+        12.46,
+        11.33
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "context",
       "control": [
-        -71.97,
-        -7.24,
-        46.49
+        -85.18,
+        4.18,
+        54.13
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "secondary-source",
       "control": [
-        -97.81,
-        -12.47,
-        -30.9
+        -84.03,
+        -20.73,
+        -24.96
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "primary-source",
       "control": [
-        -106.67,
-        41.56,
-        -20.71
+        -113.08,
+        48.44,
+        -16.73
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "compaction",
       "control": [
-        -114.12,
-        33.25,
-        -57.72
+        -115.32,
+        36.11,
+        -50.2
       ]
     },
     {
       "source": "handoff-artifact",
       "target": "agent",
       "control": [
-        -99.64,
-        38.13,
-        16.94
+        -98.2,
+        30.98,
+        17.45
       ]
     },
     {
       "source": "spec",
       "target": "handoff-artifact",
       "control": [
-        -77.47,
-        40.89,
-        -44.41
+        -74.18,
+        24.94,
+        -35.79
       ]
     },
     {
       "source": "spec",
       "target": "session",
       "control": [
-        1.96,
-        6.07,
-        -19.18
+        -2.54,
+        -2.01,
+        -29.79
       ]
     },
     {
       "source": "spec",
       "target": "ticket",
       "control": [
-        -49.96,
-        -0.56,
-        -56.13
+        -61.45,
+        0.92,
+        -57.5
       ]
     },
     {
       "source": "spec",
       "target": "context-window",
       "control": [
-        9.77,
-        78.32,
-        13.14
+        20.21,
+        87.55,
+        14.59
       ]
     },
     {
       "source": "spec",
       "target": "context",
       "control": [
-        -18.98,
-        14.87,
-        40.16
+        -26.09,
+        20.56,
+        30.34
       ]
     },
     {
       "source": "spec",
       "target": "environment",
       "control": [
-        -14.57,
-        50.02,
-        49.61
+        -13.4,
+        34.6,
+        34.48
       ]
     },
     {
       "source": "spec",
       "target": "clearing",
       "control": [
-        -31.37,
-        32.45,
-        -6.06
+        -31.28,
+        19.85,
+        3.14
       ]
     },
     {
       "source": "spec",
       "target": "agent",
       "control": [
-        -37.14,
-        51.18,
-        0.47
+        -43.94,
+        43.64,
+        6.68
       ]
     },
     {
       "source": "spec",
       "target": "smart-zone",
       "control": [
-        -55.79,
-        27.28,
-        -39.69
+        -49.38,
+        11.11,
+        -45.24
       ]
     },
     {
       "source": "ticket",
       "target": "handoff-artifact",
       "control": [
-        -113.2,
-        -11.02,
-        -41.12
+        -118.02,
+        -5.05,
+        -42.62
       ]
     },
     {
       "source": "ticket",
       "target": "session",
       "control": [
-        -39.05,
-        -31,
-        -22.16
+        -48.31,
+        -26.66,
+        -27.93
       ]
     },
     {
       "source": "ticket",
       "target": "spec",
       "control": [
-        -46,
-        14.38,
-        -45.98
+        -48.01,
+        14.83,
+        -61.83
       ]
     },
     {
       "source": "ticket",
       "target": "smart-zone",
       "control": [
-        -91.53,
-        -23.37,
-        -39.25
+        -94.29,
+        -24.54,
+        -38.18
       ]
     },
     {
       "source": "ticket",
       "target": "context",
       "control": [
-        -50.04,
-        -30.97,
-        42.26
+        -53.83,
+        -15.85,
+        23.53
       ]
     },
     {
       "source": "ticket",
       "target": "context-pointer",
       "control": [
-        -40.26,
-        -43.88,
-        -92.4
+        -43.93,
+        -42.37,
+        -91.11
       ]
     },
     {
       "source": "compaction",
       "target": "handoff",
       "control": [
-        -103.8,
-        16.06,
-        -35.73
+        -119.14,
+        20.99,
+        -34.68
       ]
     },
     {
       "source": "compaction",
       "target": "session",
       "control": [
-        -34.68,
-        1.4,
-        -34.17
+        -51.43,
+        10.67,
+        -33.93
       ]
     },
     {
       "source": "compaction",
       "target": "primary-source",
       "control": [
-        -83.05,
-        55.16,
-        -42.16
+        -84.68,
+        62.38,
+        -40.29
       ]
     },
     {
       "source": "compaction",
       "target": "secondary-source",
       "control": [
-        -69.87,
-        14.43,
-        -42.86
+        -71.78,
+        14.32,
+        -54.39
       ]
     },
     {
       "source": "compaction",
       "target": "autocompact",
       "control": [
-        -84.78,
-        18.69,
-        -79.27
+        -80.38,
+        19.52,
+        -81.44
       ]
     },
     {
       "source": "compaction",
       "target": "context-window",
       "control": [
-        -33.65,
-        82.26,
-        -5.1
+        -37.93,
+        86.47,
+        15.42
       ]
     },
     {
       "source": "compaction",
       "target": "tool-result",
       "control": [
-        -90.07,
-        56.21,
-        16.28
+        -93.53,
+        46.76,
+        9.32
       ]
     },
     {
       "source": "compaction",
       "target": "harness",
       "control": [
-        2.22,
-        76.19,
-        -42.59
+        9.62,
+        70.77,
+        -48.98
       ]
     },
     {
       "source": "compaction",
       "target": "model",
       "control": [
-        -29.16,
-        12.51,
-        1.32
+        -12.81,
+        13.78,
+        5.03
       ]
     },
     {
       "source": "compaction",
       "target": "context-pointer",
       "control": [
-        -58.33,
-        -0.09,
-        -111.03
+        -40.9,
+        8.76,
+        -110.77
       ]
     },
     {
       "source": "compaction",
       "target": "clearing",
       "control": [
-        -80.18,
-        19.48,
-        -25.91
+        -79.64,
+        29.95,
+        -19.45
       ]
     },
     {
       "source": "compaction",
       "target": "context",
       "control": [
-        -51.04,
-        15.13,
-        24.3
+        -50.93,
+        9.1,
+        20.6
       ]
     },
     {
       "source": "autocompact",
       "target": "compaction",
       "control": [
-        -81.54,
-        24.73,
-        -86.93
+        -84.87,
+        19.05,
+        -85.55
       ]
     },
     {
       "source": "autocompact",
       "target": "harness",
       "control": [
-        21.86,
-        51.09,
-        -45.21
+        20.16,
+        48.15,
+        -53.49
       ]
     },
     {
       "source": "autocompact",
       "target": "context-window",
       "control": [
-        -20.45,
-        53.84,
-        3.15
+        -12.42,
+        60.33,
+        -3.14
       ]
     },
     {
       "source": "autocompact",
       "target": "model",
       "control": [
-        1.4,
-        -16.95,
-        -9.74
+        1.66,
+        -4.39,
+        -9.03
       ]
     },
     {
       "source": "autocompact",
       "target": "session",
       "control": [
-        -30.96,
-        -32.62,
-        -40.88
+        -34.17,
+        -13.9,
+        -39.8
       ]
     },
     {
       "source": "autocompact",
       "target": "agent",
       "control": [
-        -51.03,
-        25.6,
-        -23.44
+        -50.91,
+        12.04,
+        -17.75
       ]
     },
     {
       "source": "autocompact",
       "target": "handoff-artifact",
       "control": [
-        -97.94,
-        -1.76,
-        -53.8
+        -105.66,
+        3.93,
+        -64.76
       ]
     },
     {
       "source": "autocompact",
       "target": "turn",
       "control": [
-        -34.68,
-        31.41,
-        -45.49
+        -36.13,
+        39.83,
+        -60.64
       ]
     },
     {
       "source": "memory-system",
       "target": "agent",
       "control": [
-        -40.34,
-        34.41,
-        -4.45
+        -24.98,
+        23.17,
+        -15.6
       ]
     },
     {
       "source": "memory-system",
       "target": "session",
       "control": [
-        -2.61,
-        -18.45,
-        -23.48
+        0.95,
+        -10.96,
+        -22.85
       ]
     },
     {
       "source": "memory-system",
       "target": "stateful",
       "control": [
-        24.56,
-        -8.63,
-        -0.4
+        28.08,
+        8.29,
+        2.31
       ]
     },
     {
       "source": "memory-system",
       "target": "environment",
       "control": [
-        1.13,
-        18.73,
-        28.89
+        -2.47,
+        29.07,
+        41.84
       ]
     },
     {
       "source": "memory-system",
       "target": "context-window",
       "control": [
-        8.66,
-        57.1,
-        21.82
+        6.14,
+        67.5,
+        16.49
       ]
     },
     {
       "source": "memory-system",
       "target": "clearing",
       "control": [
-        -22.3,
-        14.65,
-        -12.54
+        -25.65,
+        5.26,
+        -10.99
       ]
     },
     {
       "source": "memory-system",
       "target": "harness",
       "control": [
-        46.82,
-        38.08,
-        -48.23
+        60.86,
+        54.31,
+        -32.9
       ]
     },
     {
       "source": "memory-system",
       "target": "agents",
       "control": [
-        -59.96,
-        -14.08,
-        -61.4
+        -46.98,
+        -10.86,
+        -62.76
       ]
     },
     {
       "source": "memory-system",
       "target": "context-pointer",
       "control": [
-        -3.67,
-        -14.55,
-        -82.48
+        -9.83,
+        -26.6,
+        -94.01
       ]
     },
     {
       "source": "memory-system",
       "target": "secondary-source",
       "control": [
-        -30.94,
-        -28.59,
-        -34.46
+        -22.73,
+        -17.55,
+        -44.87
       ]
     },
     {
       "source": "memory-system",
       "target": "turn",
       "control": [
-        2.07,
-        28.11,
-        -37.42
+        2.16,
+        35.04,
+        -34.65
       ]
     },
     {
       "source": "memory-system",
       "target": "filesystem",
       "control": [
-        -24.68,
-        19.15,
-        36.32
+        -21.1,
+        18.01,
+        43.57
       ]
     },
     {
       "source": "memory-system",
       "target": "model",
       "control": [
-        34.54,
-        -5.51,
-        4.32
+        34.35,
+        7.22,
+        2.24
       ]
     },
     {
       "source": "memory-system",
       "target": "stateless",
       "control": [
-        19.35,
-        16.18,
-        22.37
+        35.14,
+        17.71,
+        36.36
       ]
     },
     {
       "source": "agents",
       "target": "environment",
       "control": [
-        -38.51,
-        -12.19,
-        25.71
+        -55.34,
+        8.59,
+        41.7
       ]
     },
     {
       "source": "agents",
       "target": "harness",
       "control": [
-        14.14,
-        27.27,
-        -46.5
+        0.53,
+        31.75,
+        -47.5
       ]
     },
     {
       "source": "agents",
       "target": "session",
       "control": [
-        -45.43,
-        -35.43,
-        -25.14
+        -46.7,
+        -33.52,
+        -22.76
       ]
     },
     {
       "source": "agents",
       "target": "context-window",
       "control": [
-        -23.58,
-        46.81,
-        11.01
+        -27.04,
+        46.58,
+        18.44
       ]
     },
     {
       "source": "agents",
       "target": "agent",
       "control": [
-        -74.5,
-        0.77,
-        -19.62
+        -89.74,
+        7.02,
+        -11.96
       ]
     },
     {
       "source": "agents",
       "target": "model",
       "control": [
-        -11.43,
-        -30.14,
-        -1.84
+        -30.32,
+        -17.74,
+        0.28
       ]
     },
     {
       "source": "agents",
       "target": "stateless",
       "control": [
-        -25.9,
-        -9.11,
-        31.86
+        -8.63,
+        -12.19,
+        20.77
       ]
     },
     {
       "source": "agents",
       "target": "progressive-disclosure",
       "control": [
-        -68.7,
-        19.7,
-        -99.31
+        -74.16,
+        29.02,
+        -95.49
       ]
     },
     {
       "source": "agents",
       "target": "turn",
       "control": [
-        -50.13,
-        18.1,
-        -52.22
+        -35.94,
+        9.7,
+        -41.4
       ]
     },
     {
       "source": "agents",
       "target": "token",
       "control": [
-        -2.93,
-        -57.93,
-        -15.79
+        -3.84,
+        -42.2,
+        -15.34
       ]
     },
     {
       "source": "agents",
       "target": "skill",
       "control": [
-        -89.49,
-        -9.63,
-        -91.12
+        -92.91,
+        -6.35,
+        -94.51
       ]
     },
     {
       "source": "agents",
       "target": "context-pointer",
       "control": [
-        -52.73,
-        -46.92,
-        -85.22
+        -59.35,
+        -33.17,
+        -97.71
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "context",
       "control": [
-        -37.66,
-        33.44,
-        -4.3
+        -39.69,
+        21.27,
+        13.91
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "agent",
       "control": [
-        -58.66,
-        52.13,
-        -38.24
+        -43.47,
+        54.72,
+        -26.51
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "context-pointer",
       "control": [
-        -19.82,
-        12.74,
-        -119.56
+        -32.63,
+        10.39,
+        -123.8
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "token",
       "control": [
-        22.67,
-        13.62,
-        -40.3
+        15.83,
+        14.33,
+        -42.77
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "turn",
       "control": [
-        -13.83,
-        67.13,
-        -64.12
+        -15.47,
+        67.03,
+        -67.37
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "input-tokens",
       "control": [
-        -3.83,
-        67.86,
-        -71.45
+        2.51,
+        71.76,
+        -81.96
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "attention-budget",
       "control": [
-        -74.03,
-        20.15,
-        -54.67
+        -85.98,
+        22.8,
+        -54.74
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "agents",
       "control": [
-        -76.61,
-        10.53,
-        -99.4
+        -64.68,
+        24.02,
+        -96.27
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "skill",
       "control": [
-        -61.15,
-        42.68,
-        -112.6
+        -65.11,
+        43.16,
+        -111.03
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "harness",
       "control": [
-        37.61,
-        81.83,
-        -58.76
+        24.81,
+        85.27,
+        -63.89
       ]
     },
     {
       "source": "progressive-disclosure",
       "target": "session",
       "control": [
-        -7.31,
-        19.4,
-        -51.79
+        -19.27,
+        10.89,
+        -55.04
       ]
     },
     {
       "source": "context-pointer",
       "target": "agent",
       "control": [
-        -29.31,
-        -8.25,
-        -35.31
+        -22.01,
+        5.59,
+        -28.36
       ]
     },
     {
       "source": "context-pointer",
       "target": "context-window",
       "control": [
-        11.52,
-        44.07,
-        -11.32
+        7.72,
+        29.69,
+        -6.36
       ]
     },
     {
       "source": "context-pointer",
       "target": "progressive-disclosure",
       "control": [
-        -28.21,
-        25.7,
-        -105.58
+        -30.65,
+        17.87,
+        -107.05
       ]
     },
     {
       "source": "context-pointer",
       "target": "token",
       "control": [
-        45.72,
-        -59.24,
-        -44.84
+        43.31,
+        -59.05,
+        -40.32
       ]
     },
     {
       "source": "context-pointer",
       "target": "agents",
       "control": [
-        -55.18,
-        -49.92,
-        -103.59
+        -59.5,
+        -43.7,
+        -89.3
       ]
     },
     {
       "source": "context-pointer",
       "target": "session",
       "control": [
-        8.93,
-        -39.97,
-        -63
+        0.12,
+        -34.21,
+        -49.86
       ]
     },
     {
       "source": "context-pointer",
       "target": "tool-call",
       "control": [
-        14.85,
-        -29.36,
-        13.29
+        4.25,
+        -34.1,
+        -3.85
       ]
     },
     {
       "source": "context-pointer",
       "target": "skill",
       "control": [
-        -33.55,
-        -13.53,
-        -120.72
+        -37.47,
+        -19.46,
+        -109.14
       ]
     },
     {
       "source": "context-pointer",
       "target": "secondary-source",
       "control": [
-        -22.27,
-        -38.19,
-        -75.09
+        -23.85,
+        -45.39,
+        -66.84
       ]
     },
     {
       "source": "context-pointer",
       "target": "primary-source",
       "control": [
-        -39.89,
-        19.9,
-        -65.19
+        -37.6,
+        15.99,
+        -59.68
       ]
     },
     {
       "source": "skill",
       "target": "environment",
       "control": [
-        -43.58,
-        19.38,
-        6.81
+        -35.1,
+        26.95,
+        5.62
       ]
     },
     {
       "source": "skill",
       "target": "context-pointer",
       "control": [
-        -31.85,
-        -20.48,
-        -108.96
+        -40.96,
+        -9.82,
+        -118.44
       ]
     },
     {
       "source": "skill",
       "target": "context-window",
       "control": [
-        -23.57,
-        66.53,
-        2.22
+        -26.11,
+        63.4,
+        -4.04
       ]
     },
     {
       "source": "skill",
       "target": "progressive-disclosure",
       "control": [
-        -56.66,
-        38.57,
-        -112.45
+        -55.47,
+        46.25,
+        -106.15
       ]
     },
     {
       "source": "skill",
       "target": "harness",
       "control": [
-        21.34,
-        55.11,
-        -61.95
+        15.49,
+        43.35,
+        -67.53
       ]
     },
     {
       "source": "skill",
       "target": "agent",
       "control": [
-        -60.55,
-        24.57,
-        -37.13
+        -65.92,
+        33.24,
+        -20.37
       ]
     },
     {
       "source": "skill",
       "target": "context",
       "control": [
-        -58.13,
-        8.05,
-        13.36
+        -44.64,
+        3.49,
+        6.83
       ]
     },
     {
       "source": "skill",
       "target": "token",
       "control": [
-        -5.5,
-        -29.96,
-        -47.96
+        -7.02,
+        -32.47,
+        -42.96
       ]
     },
     {
       "source": "skill",
       "target": "agents",
       "control": [
-        -83.51,
-        -16.36,
-        -88.43
+        -94.98,
+        -6.91,
+        -91.72
       ]
     },
     {
       "source": "skill",
       "target": "session",
       "control": [
-        -29.34,
-        -19.27,
-        -44.62
+        -29.29,
+        -1.58,
+        -53.79
       ]
     },
     {
       "source": "skill",
       "target": "tool",
       "control": [
-        -41.04,
-        61.3,
-        -8.61
+        -42.88,
+        56.62,
+        -1.59
       ]
     },
     {
       "source": "skill",
       "target": "turn",
       "control": [
-        -25.92,
-        52.28,
-        -58.63
+        -26.05,
+        39.89,
+        -66.57
       ]
     },
     {
       "source": "subagent",
       "target": "agent",
       "control": [
-        -34.88,
-        25.1,
-        -45.85
+        -31.2,
+        25.63,
+        -32.53
       ]
     },
     {
       "source": "subagent",
       "target": "tool-call",
       "control": [
-        -5.98,
-        -6.19,
-        1.77
+        7.3,
+        -6.09,
+        -3.56
       ]
     },
     {
       "source": "subagent",
       "target": "session",
       "control": [
-        -2.42,
-        -6.27,
-        -57.64
+        3.33,
+        -1.06,
+        -68.63
       ]
     },
     {
       "source": "subagent",
       "target": "context-window",
       "control": [
-        14.95,
-        68.68,
-        -25.78
+        6.18,
+        61.73,
+        -25.95
       ]
     },
     {
       "source": "subagent",
       "target": "tool-result",
       "control": [
-        -47.36,
-        47.46,
-        -14.39
+        -58.79,
+        47.5,
+        -16.91
       ]
     },
     {
       "source": "subagent",
       "target": "handoff",
       "control": [
-        -70.98,
-        -8.43,
-        -51.63
+        -69.58,
+        2.4,
+        -53.47
       ]
     },
     {
       "source": "subagent",
       "target": "context",
       "control": [
-        -22.74,
-        11.72,
-        -4.21
+        -27.29,
+        -1.89,
+        -19.76
       ]
     },
     {
       "source": "subagent",
       "target": "secondary-source",
       "control": [
-        -28.71,
-        -8,
-        -78.02
+        -23.71,
+        -16.81,
+        -87.3
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "agent",
       "control": [
-        5.6,
-        36.59,
-        -7.67
+        20.61,
+        34.38,
+        -3.75
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "session",
       "control": [
-        54.4,
-        -4.57,
-        -29.75
+        53.79,
+        -2.3,
+        -22.79
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "afk",
       "control": [
-        56.69,
-        7.24,
-        -52.11
+        55.17,
+        8.12,
+        -41.45
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "grilling",
       "control": [
-        71.57,
-        55.49,
-        -88.87
+        61.02,
+        56.03,
+        -76.91
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "prototyping",
       "control": [
-        86.8,
-        18.27,
-        -79.87
+        88.47,
+        13.07,
+        -81.35
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "automated-check",
       "control": [
-        74.45,
-        56.15,
-        -52.02
+        78.1,
+        58.77,
+        -56.61
       ]
     },
     {
       "source": "human-in-the-loop",
       "target": "human-review",
       "control": [
-        52.36,
-        27.02,
-        -70.65
+        49.45,
+        34.54,
+        -65.19
       ]
     },
     {
       "source": "afk",
       "target": "session",
       "control": [
-        12.4,
-        -35.27,
-        -20.57
+        12.62,
+        -32.89,
+        -21.25
       ]
     },
     {
       "source": "afk",
       "target": "agent",
       "control": [
-        -22.48,
-        12.88,
-        11.51
+        -29.28,
+        8.11,
+        5.95
       ]
     },
     {
       "source": "afk",
       "target": "ai",
       "control": [
-        66.44,
-        -3.23,
-        12.34
+        60.11,
+        8.78,
+        -0.47
       ]
     },
     {
       "source": "afk",
       "target": "permission-mode",
       "control": [
-        -8.18,
-        47.98,
-        11.95
+        -22.91,
+        28.92,
+        20.32
       ]
     },
     {
       "source": "afk",
       "target": "sandbox",
       "control": [
-        -6.81,
-        5.79,
-        16.1
+        -20.53,
+        6.27,
+        4.77
       ]
     },
     {
       "source": "afk",
       "target": "grilling",
       "control": [
-        19.67,
-        38.71,
-        -68.96
+        25.41,
+        33.92,
+        -73.51
       ]
     },
     {
       "source": "afk",
       "target": "spec",
       "control": [
-        0.89,
-        14.38,
-        -45.37
+        -1.17,
+        17.16,
+        -45.64
       ]
     },
     {
       "source": "afk",
       "target": "automated-check",
       "control": [
-        47.09,
-        50.76,
-        -48.16
+        42.67,
+        50.59,
+        -55.86
       ]
     },
     {
       "source": "afk",
       "target": "automated-review",
       "control": [
-        56.22,
-        -12.32,
-        -60.13
+        52.29,
+        -11.13,
+        -56.35
       ]
     },
     {
       "source": "afk",
       "target": "human-review",
       "control": [
-        13.8,
-        12.36,
-        -70.9
+        13.98,
+        13.53,
+        -69.92
       ]
     },
     {
       "source": "afk",
       "target": "ax",
       "control": [
-        38.66,
-        12.12,
-        -73.76
+        39.71,
+        18.39,
+        -71.32
       ]
     },
     {
       "source": "afk",
       "target": "agent-mode",
       "control": [
-        14.06,
-        14.79,
-        18.57
+        23.14,
+        -5.28,
+        22.93
       ]
     },
     {
       "source": "afk",
       "target": "filesystem",
       "control": [
-        -26.06,
-        -2.34,
-        33.16
+        -25.35,
+        -12.27,
+        40
       ]
     },
     {
       "source": "automated-check",
       "target": "environment",
       "control": [
-        47.92,
-        64.56,
-        39.81
+        42.74,
+        62,
+        37.47
       ]
     },
     {
       "source": "automated-check",
       "target": "agent",
       "control": [
-        2.22,
-        64.86,
-        4.39
+        16.23,
+        66.32,
+        -12.29
       ]
     },
     {
       "source": "automated-check",
       "target": "tool-call",
       "control": [
-        48.03,
-        39.45,
-        27.14
+        38.62,
+        49.39,
+        43.94
       ]
     },
     {
       "source": "automated-check",
       "target": "context-window",
       "control": [
-        47.41,
-        117.26,
-        25.17
+        50.16,
+        102.05,
+        21.27
       ]
     },
     {
       "source": "automated-check",
       "target": "ax",
       "control": [
-        58.78,
-        67.87,
-        -87.46
+        67.74,
+        62.08,
+        -82.32
       ]
     },
     {
       "source": "automated-check",
       "target": "afk",
       "control": [
-        53.75,
-        46.82,
-        -56.16
+        55.84,
+        53.38,
+        -38.37
       ]
     },
     {
       "source": "automated-check",
       "target": "automated-review",
       "control": [
-        92.19,
-        41.93,
-        -70.73
+        78.52,
+        56.31,
+        -62.74
       ]
     },
     {
       "source": "automated-check",
       "target": "human-review",
       "control": [
-        34.21,
-        60.61,
-        -67.31
+        42.31,
+        60.87,
+        -70.33
       ]
     },
     {
       "source": "automated-check",
       "target": "sandbox",
       "control": [
-        -1.47,
-        67.46,
-        -6.92
+        3.81,
+        73.38,
+        -2.08
       ]
     },
     {
       "source": "automated-review",
       "target": "agent",
       "control": [
-        13.26,
-        12.54,
-        -13.51
+        26.84,
+        6.7,
+        -25.7
       ]
     },
     {
       "source": "automated-review",
       "target": "model",
       "control": [
-        75.91,
-        -20.46,
-        0.87
+        74.76,
+        -10.46,
+        -11.75
       ]
     },
     {
       "source": "automated-review",
       "target": "system-prompt",
       "control": [
-        96.36,
-        39.14,
-        -21.72
+        94.28,
+        38.32,
+        -32.66
       ]
     },
     {
       "source": "automated-review",
       "target": "subagent",
       "control": [
-        47.2,
-        -0.43,
-        -106.65
+        39.59,
+        6.57,
+        -112.44
       ]
     },
     {
       "source": "automated-review",
       "target": "automated-check",
       "control": [
-        77.97,
-        43.08,
-        -73.65
+        91.18,
+        47.52,
+        -78.71
       ]
     },
     {
       "source": "automated-review",
       "target": "session",
       "control": [
-        44.26,
-        -25.83,
-        -30.9
+        55.04,
+        -34.97,
+        -47.58
       ]
     },
     {
       "source": "automated-review",
       "target": "context-window",
       "control": [
-        71.95,
-        59.16,
-        -6.93
+        55.82,
+        42.21,
+        -4.87
       ]
     },
     {
       "source": "automated-review",
       "target": "human-review",
       "control": [
-        41.72,
-        6.77,
-        -81.34
+        43.06,
+        22.12,
+        -83.33
       ]
     },
     {
       "source": "automated-review",
       "target": "afk",
       "control": [
-        55.45,
-        -19.52,
-        -60.82
+        62.02,
+        -14.33,
+        -68.02
       ]
     },
     {
       "source": "human-review",
       "target": "agent",
       "control": [
-        -27.63,
-        37.46,
-        -21.36
+        -24.27,
+        46.12,
+        -23.38
       ]
     },
     {
       "source": "human-review",
       "target": "secondary-source",
       "control": [
-        -17.82,
-        -12.57,
-        -52.51
+        -33.71,
+        -0.54,
+        -60.95
       ]
     },
     {
       "source": "human-review",
       "target": "primary-source",
       "control": [
-        -40.14,
-        62.25,
-        -55.11
+        -45.97,
+        66.32,
+        -50.65
       ]
     },
     {
       "source": "human-review",
       "target": "automated-check",
       "control": [
-        39.75,
-        65.21,
-        -78.36
+        37.89,
+        77.91,
+        -82.81
       ]
     },
     {
       "source": "human-review",
       "target": "automated-review",
       "control": [
-        38.4,
-        8.59,
-        -92.34
+        55.56,
+        7.3,
+        -84.08
       ]
     },
     {
       "source": "human-review",
       "target": "afk",
       "control": [
-        15.54,
-        14.29,
-        -68.67
+        4.53,
+        4.56,
+        -71.92
       ]
     },
     {
       "source": "human-review",
       "target": "human-in-the-loop",
       "control": [
-        43.31,
-        23.44,
-        -78.91
+        43.19,
+        27.85,
+        -64.5
       ]
     },
     {
       "source": "vibe-coding",
       "target": "agent",
       "control": [
-        27.14,
-        45.78,
-        -26.93
+        26.88,
+        52.25,
+        -27.42
       ]
     },
     {
       "source": "vibe-coding",
       "target": "human-review",
       "control": [
-        40.82,
-        45.8,
-        -92.31
+        46.75,
+        46.72,
+        -89.59
       ]
     },
     {
       "source": "vibe-coding",
       "target": "automated-review",
       "control": [
-        90.53,
-        19.94,
-        -88.55
+        93.94,
+        12.74,
+        -85.82
       ]
     },
     {
       "source": "vibe-coding",
       "target": "automated-check",
       "control": [
-        83.83,
-        71.07,
-        -76.65
+        77.89,
+        67.6,
+        -74.52
       ]
     },
     {
       "source": "vibe-coding",
       "target": "prototyping",
       "control": [
-        93.43,
-        22.28,
-        -98.41
+        88.11,
+        22.5,
+        -100.44
       ]
     },
     {
       "source": "design-concept",
       "target": "agent",
       "control": [
-        1.43,
-        10.39,
-        -28.29
+        -7.58,
+        21.96,
+        -25.45
       ]
     },
     {
       "source": "design-concept",
       "target": "handoff-artifact",
       "control": [
-        -43.32,
-        0.17,
-        -75.99
+        -40.1,
+        -0.38,
+        -79.78
       ]
     },
     {
       "source": "design-concept",
       "target": "grilling",
       "control": [
-        51.07,
-        37.43,
-        -115.84
+        45.9,
+        29.46,
+        -107.66
       ]
     },
     {
       "source": "design-concept",
       "target": "spec",
       "control": [
-        16.23,
-        29.76,
-        -87.03
+        26.42,
+        28.28,
+        -77.91
       ]
     },
     {
       "source": "grilling",
       "target": "design-concept",
       "control": [
-        39.93,
-        36.12,
-        -112.5
+        53.24,
+        25.55,
+        -115.56
       ]
     },
     {
       "source": "grilling",
       "target": "agent",
       "control": [
-        -18.95,
-        56.11,
-        -35.22
+        -0.37,
+        66.35,
+        -36.96
       ]
     },
     {
       "source": "grilling",
       "target": "handoff-artifact",
       "control": [
-        -52.26,
-        37.09,
-        -62.25
+        -48.42,
+        40.03,
+        -81.17
       ]
     },
     {
       "source": "grilling",
       "target": "spec",
       "control": [
-        13.54,
-        62.08,
-        -93.26
+        11.18,
+        62.38,
+        -83.46
       ]
     },
     {
       "source": "grilling",
       "target": "human-in-the-loop",
       "control": [
-        68.56,
-        52.35,
-        -89.53
+        65.39,
+        50.16,
+        -79.77
       ]
     },
     {
       "source": "grilling",
       "target": "prototyping",
       "control": [
-        62.88,
-        44.51,
-        -111.93
+        62.61,
+        40.07,
+        -109.19
       ]
     },
     {
       "source": "prototyping",
       "target": "agent",
       "control": [
-        18.99,
-        37.7,
-        -33.58
+        14.36,
+        37.08,
+        -21.91
       ]
     },
     {
       "source": "prototyping",
       "target": "grilling",
       "control": [
-        65.27,
-        44.13,
-        -107.08
+        54.99,
+        44.87,
+        -111.99
       ]
     },
     {
       "source": "prototyping",
       "target": "human-in-the-loop",
       "control": [
-        85.6,
-        11.27,
-        -77.23
+        86.28,
+        12.3,
+        -77.2
       ]
     },
     {
       "source": "prototyping",
       "target": "spec",
       "control": [
-        45.19,
-        31.77,
-        -74.49
+        36.56,
+        31.47,
+        -86.9
       ]
     },
     {
       "source": "dx",
       "target": "ax",
       "control": [
-        49.2,
-        21.84,
-        -123.37
+        52.64,
+        20.65,
+        -123.02
       ]
     },
     {
       "source": "dx",
       "target": "stateful",
       "control": [
-        42.57,
-        13.35,
-        -33.03
+        50.72,
+        1.81,
+        -27.28
       ]
     },
     {
       "source": "dx",
       "target": "stateless",
       "control": [
-        46.85,
-        18.08,
-        -10.81
+        60.3,
+        23.38,
+        -7.02
       ]
     },
     {
       "source": "dx",
       "target": "agent",
       "control": [
-        -15.6,
-        42.17,
-        -31.2
+        -15.48,
+        31.97,
+        -44.99
       ]
     },
     {
       "source": "dx",
       "target": "session",
       "control": [
-        25.18,
-        -4.21,
-        -59.61
+        31.95,
+        -13.05,
+        -54.76
       ]
     },
     {
       "source": "dx",
       "target": "environment",
       "control": [
-        27.2,
-        25.39,
-        1.1
+        34.9,
+        28.61,
+        10.61
       ]
     },
     {
       "source": "dx",
       "target": "tool-result",
       "control": [
-        -28.57,
-        34.48,
-        -18.73
+        -12.49,
+        28.95,
+        -13.02
       ]
     },
     {
       "source": "dx",
       "target": "context-window",
       "control": [
-        32.51,
-        69.82,
-        -14.9
+        43.3,
+        75.05,
+        -26.33
       ]
     },
     {
       "source": "dx",
       "target": "agents",
       "control": [
-        -23.52,
-        -4.91,
-        -104.42
+        -28.25,
+        -13.01,
+        -100.76
       ]
     },
     {
       "source": "ax",
       "target": "environment",
       "control": [
-        21.64,
-        46.45,
-        5.1
+        22.92,
+        42.96,
+        0.45
       ]
     },
     {
       "source": "ax",
       "target": "agent",
       "control": [
-        5.83,
-        39.6,
-        -25.74
+        10.21,
+        43.49,
+        -40.47
       ]
     },
     {
       "source": "ax",
       "target": "dx",
       "control": [
-        53.21,
-        21.25,
-        -124.42
+        49.19,
+        21.08,
+        -123.47
       ]
     },
     {
       "source": "ax",
       "target": "model",
       "control": [
-        54.27,
-        11.11,
-        -28.4
+        51.66,
+        22.84,
+        -11.58
       ]
     },
     {
       "source": "ax",
       "target": "harness",
       "control": [
-        77.89,
-        61.46,
-        -68.63
+        79.14,
+        64.95,
+        -72.78
       ]
     },
     {
       "source": "ax",
       "target": "automated-check",
       "control": [
-        59.73,
-        66.49,
-        -95.26
+        56.92,
+        72.55,
+        -83.75
       ]
     },
     {
       "source": "ax",
       "target": "agents",
       "control": [
-        -23.9,
-        6.82,
-        -95.57
+        -14.13,
+        4.72,
+        -99.6
       ]
     },
     {
       "source": "ax",
       "target": "skill",
       "control": [
-        0.02,
-        23.96,
-        -106.84
+        -16.09,
+        34.66,
+        -108.24
       ]
     },
     {
       "source": "ax",
       "target": "tool",
       "control": [
-        27.29,
-        70.51,
-        -9.36
+        26.41,
+        56.01,
+        5.45
       ]
     },
     {
       "source": "ax",
       "target": "context-window",
       "control": [
-        47.13,
-        68.16,
-        -13.19
+        47.36,
+        86.08,
+        -22.16
       ]
     },
     {
       "source": "ax",
       "target": "smart-zone",
       "control": [
-        -12.29,
-        24.58,
-        -82.8
+        -11.34,
+        12.04,
+        -73.51
       ]
     },
     {
       "source": "ax",
       "target": "tool-result",
       "control": [
-        -16.28,
-        44.31,
-        -18.39
+        -14.04,
+        46.67,
+        -6.7
       ]
     }
   ]
