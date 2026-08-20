@@ -11,10 +11,15 @@ const SECTION_METADATA = [
   { index: 6, title: 'Patterns of Work (الگوهای کار)', centroid: [64.85, 6.5, -105.11] as [number, number, number], radius: 180.51 },
 ];
 
+/**
+ * Normalizes slugs while fully supporting Unicode / Persian letters and URL decoding
+ */
 function normalizeSlug(raw: string): string {
   if (!raw) return '';
-  let s = raw.toLowerCase().trim().replace(/^#/, '').replace(/\.md$/, '');
-  s = s.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+  let s = decodeURIComponent(raw).toLowerCase().trim();
+  s = s.replace(/^#/, '').replace(/\.md$/i, '').replace(/^\.\//, '');
+  // Support Latin, Persian/Arabic (\p{L}), Numbers (\p{N}), Hyphens
+  s = s.replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s+/g, '-').replace(/-+/g, '-');
   if (s === 'agents-md' || s === 'agentsmd') return 'agentsmd';
   return s;
 }
@@ -29,6 +34,7 @@ interface ParsedNode {
   heardInTheWild?: {
     user: string;
     agent?: string;
+    dialogue?: string[];
   };
   links: string[];
   section: number;
@@ -36,19 +42,23 @@ interface ParsedNode {
   layout: [number, number, number];
 }
 
+const USAGE_HEADER = `(?:[_*]{1,2}(?:(?:نمونه[\\s\\u200c]+)?کاربرد(?:[\\s\\u200c]+در[\\s\\u200c]+مکالمه)?|Usage|Heard\\s+in\\s+the\\s+wild)[:\\s]*[_*]{0,2})`;
+const AVOID_HEADER = `(?:[_*]{1,2}(?:نباید[\\u200c\\s]*ها|Avoid)[:\\s]*[_*]{0,2})`;
+
 function parseDictionaryMarkdown(mdText: string) {
   const sections: any[] = [];
   const nodes: ParsedNode[] = [];
   const nodeMap = new Map<string, ParsedNode>();
 
+  // Split sections by ## Section or ## بخش
   const sectionChunks = mdText
-    .split(/\n(?=##\s+Section\s+\d+)/g)
-    .filter((chunk) => chunk.trim().startsWith('## Section'));
+    .split(/\n(?=##\s+(?:Section|بخش)\s+\d+)/gi)
+    .filter((chunk) => chunk.trim().match(/^##\s+(?:Section|بخش)\s+\d+/i));
 
   sectionChunks.forEach((secChunk, secIdx) => {
     const lines = secChunk.split('\n');
     const headerLine = lines[0];
-    const matchSec = headerLine.match(/##\s+Section\s+(\d+)\s*[—:-]\s*(.+)/i);
+    const matchSec = headerLine.match(/##\s+(?:Section|بخش)\s+(\d+)\s*[—:-]\s*(.+)/i);
     const secNum = matchSec ? parseInt(matchSec[1], 10) - 1 : secIdx;
     const safeSecNum = Math.max(0, Math.min(6, secNum));
     const secMeta = SECTION_METADATA[safeSecNum];
@@ -68,59 +78,93 @@ function parseDictionaryMarkdown(mdText: string) {
       const slug = normalizeSlug(rawTitle);
       sectionSlugs.push(slug);
 
-      const fullContent = termLines.slice(1).join('\n').trim();
+      let fullContent = termLines.slice(1).join('\n').trim();
 
-      // 1. Extract Links: [Text](#slug)
+      // Handle YAML Frontmatter if embedded
+      let frontmatterDesc = '';
+      const fmMatch = fullContent.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+      if (fmMatch) {
+        const fmBody = fmMatch[1];
+        const descMatch = fmBody.match(/description:\s*["']?([^"'\n\r]+)["']?/i);
+        if (descMatch) {
+          frontmatterDesc = descMatch[1].trim();
+        }
+        fullContent = fullContent.replace(/^---\s*\n[\s\S]*?\n---\s*\n?/, '').trim();
+      }
+
+      // 1. Extract Links: matches both [Text](#slug) and [Text](./File%20Name.md)
       const links: string[] = [];
-      const linkRegex = /\[([^\]]+)\]\(#([a-zA-Z0-9_-]+)\)/g;
+      const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
       let lMatch: RegExpExecArray | null;
       while ((lMatch = linkRegex.exec(fullContent)) !== null) {
-        const targetSlug = normalizeSlug(lMatch[2]);
+        const rawTarget = lMatch[2].trim();
+        const targetSlug = normalizeSlug(rawTarget);
         if (targetSlug && targetSlug !== slug && !links.includes(targetSlug)) {
           links.push(targetSlug);
         }
       }
 
-      // 2. Extract Avoid / نباید‌ها
+      // 2. Extract Avoid / نبایدها (Supports bold, italics, ZWNJ, and various colons)
       let avoid: string | undefined;
-      const avoidMatch = fullContent.match(
-        /_(?:نباید[\u200c]*ها|Avoid):_\s*([\s\S]*?)(?=\n\s*_(?:کاربرد|Usage):_|$)/i
-      );
+      const avoidRegex = new RegExp(`${AVOID_HEADER}\\s*([\\s\\S]*?)(?=(?:\\n\\s*${USAGE_HEADER})|$)`, 'i');
+      const avoidMatch = fullContent.match(avoidRegex);
       if (avoidMatch) {
         avoid = avoidMatch[1].trim();
       }
 
       // 3. Extract Dialogue (Heard In The Wild / کاربرد)
-      let heardInTheWild: { user: string; agent?: string } | undefined;
-      const usageMatch = fullContent.match(/_(?:کاربرد|Usage):_\s*([\s\S]*)$/i);
+      let heardInTheWild: { user: string; agent?: string; dialogue?: string[] } | undefined;
+      const usageRegex = new RegExp(`${USAGE_HEADER}\\s*([\\s\\S]*)$`, 'i');
+      const usageMatch = fullContent.match(usageRegex);
       if (usageMatch) {
-        const rawQuotes = usageMatch[1]
-          .split(/\n\s*\n/)
-          .map((s) => s.trim().replace(/^[-*•]\s*/, '').replace(/^[«"“]\s*/, '').replace(/\s*[»"”]$/, '').trim())
-          .filter((s) => s.length > 2);
+        const cleanQuotes = usageMatch[1]
+          .split(/\n+/)
+          .map((s) =>
+            s
+              .trim()
+              .replace(/^[-*•]\s*/, '')
+              .replace(/^[«"“]\s*/, '')
+              .replace(/\s*[»"”]$/, '')
+              .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // تبدیل لینک‌های مارک‌داون به متن ساده برای رفع باگ رنگ مشکی
+              .trim()
+          )
+          .filter((s) => s.length > 1);
 
-        if (rawQuotes.length >= 2) {
-          heardInTheWild = { user: rawQuotes[0], agent: rawQuotes[1] };
-        } else if (rawQuotes.length === 1) {
-          heardInTheWild = { user: rawQuotes[0] };
+        if (cleanQuotes.length >= 2) {
+          heardInTheWild = {
+            user: cleanQuotes[0],
+            agent: cleanQuotes[1],
+            dialogue: cleanQuotes,
+          };
+        } else if (cleanQuotes.length === 1) {
+          heardInTheWild = { user: cleanQuotes[0], dialogue: cleanQuotes };
         }
       }
 
-      // 4. Extract Prose Body (Lead vs Full Definition) — Preserving [Text](#slug) links!
+      // 4. Extract Prose Body (Clean description and fullDefinition)
       const rawBody = fullContent
-        .replace(/_(?:نباید[\u200c]*ها|Avoid):_[\s\S]*?(?=\n\s*_(?:کاربرد|Usage):_|$)/gi, '')
-        .replace(/_(?:کاربرد|Usage):_[\s\S]*$/gi, '')
+        .replace(new RegExp(`${AVOID_HEADER}[\\s\\S]*?(?=(?:\\n\\s*${USAGE_HEADER})|$)`, 'gi'), '')
+        .replace(new RegExp(`${USAGE_HEADER}[\\s\\S]*$`, 'gi'), '')
         .trim();
 
       const paragraphs = rawBody.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
-      // We PRESERVE the raw markdown links inside description and fullDefinition!
-      const description = paragraphs[0] || '';
-      const fullDefinition = paragraphs.slice(1).join('\n\n');
+
+      // استخراج درست description و fullDefinition
+      let description = '';
+      let fullDefinition = '';
+
+      if (paragraphs[0]?.startsWith('>')) {
+        description = paragraphs[0].replace(/^>\s*/, '').trim();
+        fullDefinition = paragraphs.slice(1).join('\n\n');
+      } else {
+        description = frontmatterDesc || paragraphs[0] || '';
+        fullDefinition = frontmatterDesc ? paragraphs.join('\n\n') : paragraphs.slice(1).join('\n\n');
+      }
 
       const nodeObj: ParsedNode = {
         slug,
         title: rawTitle,
-        aliases: [rawTitle.toLowerCase()],
+        aliases: [rawTitle.toLowerCase(), slug],
         description,
         fullDefinition,
         avoid,
@@ -161,7 +205,7 @@ async function main() {
   for (const p of possiblePaths) {
     if (fs.existsSync(p)) {
       const content = fs.readFileSync(p, 'utf8');
-      if (content.includes('## Section') && content.includes('### ')) {
+      if ((content.includes('## Section') || content.includes('## بخش')) && content.includes('### ')) {
         mdContent = content;
         foundPath = p;
         break;
