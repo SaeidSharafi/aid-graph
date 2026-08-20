@@ -1,0 +1,6 @@
+{
+  "name": "Dictionary of AI Coding - 3D Knowledge Graph",
+  "description": "Interactive 3D Force-Directed Knowledge Graph and Encyclopedia of AI Coding with Octree Barnes-Hut physics and dynamic repacking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
