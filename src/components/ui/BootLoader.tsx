@@ -41,10 +41,10 @@ export const BootLoader: React.FC = () => {
 
     animId = requestAnimationFrame(tick);
 
-    // Guaranteed fallback: unblock after 2.5 seconds even on slow devices
+    // Guaranteed fallback: unblock after 3 seconds even on slow devices
     const fallbackTimer = setTimeout(() => {
       isDone.current = true;
-    }, 2500);
+    }, 3000);
 
     return () => {
       cancelAnimationFrame(animId);
@@ -56,7 +56,7 @@ export const BootLoader: React.FC = () => {
   useEffect(() => {
     if (!ready) return;
     const elapsed = performance.now() - startTime.current;
-    const delay = Math.max(0, 400 - elapsed);
+    const delay = Math.max(0, 300 - elapsed);
     const timer = setTimeout(() => {
       isDone.current = true;
     }, delay);
@@ -74,13 +74,82 @@ export const BootLoader: React.FC = () => {
   if (hidden) return null;
 
   return (
-    <div dir="rtl" className="loading-screen" data-hiding={hiding}>
-      <p className="text-[0.65rem] font-mono tracking-widest uppercase opacity-40">
+    <div
+      dir="rtl"
+      className="loading-screen"
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 100,
+        backgroundColor: "#f2f2f0",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "24px",
+        textAlign: "center",
+        fontFamily: "system-ui, -apple-system, sans-serif",
+        userSelect: "none",
+        opacity: hiding ? 0 : 1,
+        pointerEvents: hiding ? "none" : "auto",
+        transition: "opacity 0.5s ease-out",
+      }}
+    >
+      {/* Subtitle / Author */}
+      <p
+        style={{
+          fontSize: "11px",
+          fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          letterSpacing: "0.15em",
+          textTransform: "uppercase",
+          color: "rgba(26, 26, 25, 0.45)",
+          marginBottom: "8px",
+        }}
+      >
         اثر مت پوکاک (Matt Pocock)
+        
       </p>
-      <h1 className="loading-title">دیکشنری کدنویسی با هوش مصنوعی</h1>
-      <div className="loading-bar">
-        <span ref={barRef} className="loading-fill" />
+
+      {/* Main Title */}
+      <h1
+        className="loading-title"
+        style={{
+          fontSize: "24px",
+          fontWeight: 800,
+          letterSpacing: "-0.01em",
+          color: "#1a1a19",
+          marginBottom: "28px",
+          lineHeight: 1.3,
+        }}
+      >
+        دیکشنری کدنویسی با هوش مصنوعی
+      </h1>
+
+      {/* Loading Progress Bar Container */}
+      <div
+        className="loading-bar"
+        style={{
+          width: "180px",
+          height: "3px",
+          backgroundColor: "rgba(26, 26, 25, 0.1)",
+          borderRadius: "9999px",
+          overflow: "hidden",
+          position: "relative",
+        }}
+      >
+        {/* Animated Fill Indicator */}
+        <span
+          ref={barRef}
+          className="loading-fill"
+          style={{
+            display: "block",
+            height: "100%",
+            backgroundColor: "#1a1a19",
+            borderRadius: "9999px",
+            width: "0%",
+            transition: "width 0.08s ease-out",
+          }}
+        />
       </div>
     </div>
   );

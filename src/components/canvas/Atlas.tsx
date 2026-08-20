@@ -70,7 +70,7 @@ layoutNodes.forEach((node, i) => {
   neighborIndexSets.push(neighborSet);
 });
 
-// View-Space Relative Depth Shader (Perfect Camera-Aware Shading)
+// View-Space Relative Depth Shader (Camera-Aware Depth Sorting)
 const NodeShader = {
   vertexShader: `
     attribute vec3 aOffset;
@@ -94,9 +94,6 @@ const NodeShader = {
       // Transform Globe Center (0,0,0) into Camera View-Space
       vec4 globeCenterView = modelViewMatrix * vec4(0.0, 0.0, 0.0, 1.0);
 
-      // Relative Depth along Camera View Axis:
-      // Front nodes (closer to camera) have positive vRelDepth
-      // Rear nodes (farther from camera) have negative vRelDepth
       vRelDepth = centerView.z - globeCenterView.z;
 
       gl_Position = projectionMatrix * centerView;
@@ -118,7 +115,6 @@ const NodeShader = {
       // Map [-60 (back), +60 (front)] smoothly into [0.0, 1.0]
       float t = clamp((vRelDepth + 60.0) / 120.0, 0.0, 1.0);
 
-      // Smooth gradient: Back = light paper slate, Front = dark ink
       vec3 backColor  = mix(uInk, uPaper, 0.78);
       vec3 frontColor = uInk;
       vec3 col = mix(backColor, frontColor, t);
@@ -455,9 +451,12 @@ export const Atlas: React.FC = () => {
         }
       }
 
+      // Hide and scale label cleanly when node is filtered out by search
       const labelGrp = labelGroupRefs.current[i];
       if (labelGrp) {
         labelGrp.position.set(wx, wy + labelOffsets[i], wz);
+        labelGrp.visible = targetVis > 0.08;
+        labelGrp.scale.setScalar(Math.max(0.001, targetVis));
       }
     }
 
@@ -465,7 +464,7 @@ export const Atlas: React.FC = () => {
     if (radiusAttrRef.current) radiusAttrRef.current.needsUpdate = true;
     if (stateAttrRef.current) stateAttrRef.current.needsUpdate = true;
 
-    // Curved Lines
+    // Curved Lines: Only render between nodes that are BOTH VISIBLE
     const edgePosAttr = edgeLinePosAttrRef.current;
     const edgeOpAttr = edgeLineOpAttrRef.current;
     const pPosAttr = particlePosAttrRef.current;
@@ -483,10 +482,17 @@ export const Atlas: React.FC = () => {
         const sMi = slugToMotionIndex.get(e.source) ?? 0;
         const tMi = slugToMotionIndex.get(e.target) ?? 0;
 
-        const isConnected = activeSlug && (e.source === activeSlug || e.target === activeSlug);
+        const sVis = currentVisibilities[sMi];
+        const tVis = currentVisibilities[tMi];
+        const bothVisible = sVis > 0.3 && tVis > 0.3;
+
+        const isConnected = Boolean(
+          bothVisible && activeSlug && (e.source === activeSlug || e.target === activeSlug)
+        );
+
         if (isConnected) activeEdgeIndices.push(idx);
 
-        const targetOp = isConnected ? 0.65 : 0.0;
+        const targetOp = isConnected ? 0.65 * Math.min(sVis, tVis) : 0.0;
         currentEdgeOpacities[idx] += (targetOp - currentEdgeOpacities[idx]) * opSpeed;
         const edgeOp = currentEdgeOpacities[idx];
 
@@ -537,7 +543,7 @@ export const Atlas: React.FC = () => {
       edgeOpAttr.needsUpdate = true;
     }
 
-    // Flowing Particles
+    // Flowing Particles (Only on active edges between visible nodes)
     if (pPosAttr && pOpAttr) {
       const pPosArr = pPosAttr.array as Float32Array;
       const pOpArr = pOpAttr.array as Float32Array;
@@ -593,6 +599,7 @@ export const Atlas: React.FC = () => {
     const dom = gl.domElement;
     const raycaster = new THREE.Raycaster();
     const pVec = new THREE.Vector3();
+    const sphere = new THREE.Sphere();
     let downPos = { x: 0, y: 0 };
 
     const getIntersectedSlug = (clientX: number, clientY: number) => {
@@ -602,21 +609,25 @@ export const Atlas: React.FC = () => {
 
       raycaster.setFromCamera(new THREE.Vector2(x, y), camera);
       let closestSlug: string | null = null;
-      let minDistance = Infinity;
+      let minCamDist = Infinity;
 
       for (let i = 0; i < MOTION_COUNT; i++) {
-        if (currentVisibilities[i] < 0.3) continue;
+        if (currentVisibilities[i] < 0.2) continue;
         pVec.set(
           currentWorldPositions[3 * i + 0],
           currentWorldPositions[3 * i + 1],
           currentWorldPositions[3 * i + 2]
         );
 
-        const screenDist = raycaster.ray.distanceToPoint(pVec);
-        const radius = nodeRadii[i];
-        if (screenDist < radius * 1.4 && screenDist < minDistance) {
-          minDistance = screenDist;
-          closestSlug = layoutNodes[i].slug;
+        const r = Math.max(nodeRadii[i] * 1.8, 6.5);
+        sphere.set(pVec, r);
+
+        if (raycaster.ray.intersectsSphere(sphere)) {
+          const distToCam = raycaster.ray.origin.distanceTo(pVec);
+          if (distToCam < minCamDist) {
+            minCamDist = distToCam;
+            closestSlug = layoutNodes[i].slug;
+          }
         }
       }
       return closestSlug;
@@ -635,8 +646,10 @@ export const Atlas: React.FC = () => {
     const handlePointerUp = (e: PointerEvent) => {
       if (Math.hypot(e.clientX - downPos.x, e.clientY - downPos.y) > 6) return;
       const hit = getIntersectedSlug(e.clientX, e.clientY);
-      playTapSound();
-      focusNode(hit);
+      if (hit) {
+        playTapSound();
+        focusNode(hit);
+      }
     };
 
     dom.addEventListener("pointermove", handlePointerMove);
@@ -705,7 +718,7 @@ export const Atlas: React.FC = () => {
 
       <CameraControls ref={controlsRef} makeDefault smoothTime={0.32} />
 
-      {/* Billboard Node Discs: depthWrite=true & transparent=false for Proper 3D Occlusion */}
+      {/* Billboard Node Discs */}
       <instancedMesh
         ref={nodeMeshRef}
         args={[planeGeom, undefined, MOTION_COUNT]}
@@ -727,7 +740,7 @@ export const Atlas: React.FC = () => {
         />
       </instancedMesh>
 
-      {/* Focus Ring */}
+      {/* Selection Focus Ring */}
       <FocusRing currentWorldPositions={currentWorldPositions} />
 
       {/* Curved Connection Lines */}
@@ -787,7 +800,7 @@ export const Atlas: React.FC = () => {
         ))}
       </Suspense>
 
-      {/* Postprocessing */}
+      {/* Postprocessing Grain Overlay */}
       <EffectComposer multisampling={4}>
         <DuotoneEffect />
         <Noise premultiply blendFunction={BlendFunction.SOFT_LIGHT} opacity={0.16} />

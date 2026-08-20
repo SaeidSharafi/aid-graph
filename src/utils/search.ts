@@ -3,9 +3,9 @@ import { nodes } from "../data/dictionary";
 
 let miniSearchInstance: MiniSearch | null = null;
 
-function sanitize(text: string | undefined): string {
+function sanitize(text: string | undefined | null): string {
   if (!text) return "";
-  return text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
+  return text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").trim();
 }
 
 function getIndex(): MiniSearch {
@@ -22,16 +22,30 @@ function getIndex(): MiniSearch {
     },
   });
 
+  const safeNodes = Array.isArray(nodes) ? nodes : [];
+
   ms.addAll(
-    nodes.map((n) => ({
-      slug: n.slug,
-      title: n.title,
-      aliases: n.aliases.join(" "),
-      description: sanitize(n.description),
-      body: sanitize(n.body),
-      usage: n.usage.map(sanitize).join(" "),
-      avoid: sanitize(n.avoid),
-    }))
+    safeNodes.map((n) => {
+      const aliasesStr = Array.isArray(n.aliases) ? n.aliases.join(" ") : "";
+      
+      const usageStr = Array.isArray(n.usage)
+        ? n.usage.map(sanitize).join(" ")
+        : (n as any).heardInTheWild
+        ? `${sanitize((n as any).heardInTheWild.user)} ${sanitize((n as any).heardInTheWild.agent)}`
+        : "";
+
+      const bodyStr = sanitize(n.body || (n as any).fullDefinition || "");
+
+      return {
+        slug: n.slug,
+        title: n.title || "",
+        aliases: aliasesStr,
+        description: sanitize(n.description),
+        body: bodyStr,
+        usage: usageStr,
+        avoid: sanitize(n.avoid),
+      };
+    })
   );
 
   miniSearchInstance = ms;

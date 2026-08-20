@@ -99,12 +99,12 @@ export function solveRepack(activeSlugs: string[]) {
   const fy = forceY(0).strength(0.06);
   const fz = forceZ(0).strength(0.06);
 
-  const sim = forceSimulation(simNodes, 3)
-    .force("charge", charge)
-    .force("collide", collide)
-    .force("x", fx)
-    .force("y", fy)
-    .force("z", fz);
+  const sim = forceSimulation(simNodes, 3);
+  sim.force("charge", charge);
+  sim.force("collide", collide);
+  sim.force("x", fx);
+  sim.force("y", fy);
+  sim.force("z", fz);
 
   if (simEdges.length > 0) {
     sim.force("link", () => {
